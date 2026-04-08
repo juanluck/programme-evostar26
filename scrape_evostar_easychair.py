@@ -154,33 +154,111 @@ def parse_room(line: str) -> tuple[str | None, str | None]:
     return None, None
 
 
+def looks_like_author_line(line: str) -> bool:
+    if not line or line.startswith("PRESENTER:") or line.startswith("ABSTRACT."):
+        return False
+    if PERSON_LINK_RE.search(line):
+        return True
+
+    plain = markdown_links_to_text(line)
+    if len(plain) > 220 or ":" in plain or "?" in plain:
+        return False
+
+    tokens = re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.-]*", plain)
+    if not tokens:
+        return False
+
+    lowercase_exceptions = {"and", "de", "del", "da", "dos", "van", "von", "la", "le", "di", "du", "jr", "ii", "iii"}
+    lower_tokens = [t for t in tokens if t.islower() and t.lower() not in lowercase_exceptions]
+    if lower_tokens:
+        return False
+
+    punct = {",", " and ", " & ", ";"}
+    if any(mark in plain for mark in punct):
+        return True
+
+    titlecaseish = sum(1 for t in tokens if t[:1].isupper())
+    return titlecaseish == len(tokens) and len(tokens) <= 12
+
+
+def parse_presenter(line: str) -> str | None:
+    if not line.startswith("PRESENTER:"):
+        return None
+    linked = re.search(r"PRESENTER:\s*\[([^\]]+)\]\(", line)
+    if linked:
+        return linked.group(1)
+    plain = markdown_links_to_text(line.split(":", 1)[1]).strip()
+    return plain or None
+
+
 def parse_talk_block(lines: list[str], session: dict[str, Any], day_label: str) -> dict[str, Any] | None:
     if not lines:
         return None
+
     talk_start = lines[0]
-    joined = normalize_space(" ".join(lines[1:]))
-    abstract_match = ABSTRACT_RE.search(joined)
-    if not abstract_match:
+    body = [line for line in lines[1:] if line]
+    if not body:
         return None
 
-    before_abstract = normalize_space(joined[:abstract_match.start()])
-    after_abstract = normalize_space(joined[abstract_match.end():])
-    author_matches = list(PERSON_LINK_RE.finditer(before_abstract))
-    authors = [match.group(1) for match in author_matches]
-    title_source = before_abstract[author_matches[-1].end():] if author_matches else before_abstract
-    title = normalize_space(markdown_links_to_text(title_source))
-    title = re.sub(r"^(?:,|and)\s*", "", title)
-    presenter_match = re.search(r"PRESENTER:\s*\[([^\]]+)\]\(", after_abstract)
-    presenter = presenter_match.group(1) if presenter_match else None
+    joined = normalize_space(" ".join(body))
+    abstract_match = ABSTRACT_RE.search(joined)
+    abstract_url = abstract_match.group(1) if abstract_match else None
+
+    presenter = next((parse_presenter(line) for line in body if line.startswith("PRESENTER:")), None)
+
+    abstract_idx = next((i for i, line in enumerate(body) if line.startswith("ABSTRACT.")), None)
+    presenter_idx = next((i for i, line in enumerate(body) if line.startswith("PRESENTER:")), None)
+    cutoff_candidates = [idx for idx in (presenter_idx, abstract_idx) if idx is not None]
+    content_cutoff = min(cutoff_candidates) if cutoff_candidates else len(body)
+    preamble = body[:content_cutoff]
+
+    authors: list[str] = []
+    title_lines: list[str] = []
+
+    if abstract_match:
+        before_abstract = normalize_space(joined[:abstract_match.start()])
+        author_matches = list(PERSON_LINK_RE.finditer(before_abstract))
+        authors = [match.group(1) for match in author_matches]
+        title_source = before_abstract[author_matches[-1].end():] if author_matches else before_abstract
+        title = normalize_space(markdown_links_to_text(title_source))
+        title = re.sub(r"^(?:,|and)\s*", "", title)
+        if title:
+            title_lines = [title]
+
+    if not title_lines:
+        idx = 0
+        while idx < len(preamble) and looks_like_author_line(preamble[idx]):
+            authors.extend(parse_person_names(preamble[idx]))
+            idx += 1
+
+        title_lines = [markdown_links_to_text(line) for line in preamble[idx:] if not looks_like_author_line(line)]
+        if not title_lines and preamble:
+            title_lines = [markdown_links_to_text(preamble[-1])]
+            if len(preamble) > 1:
+                for line in preamble[:-1]:
+                    authors.extend(parse_person_names(line))
+
+    title = normalize_space(" ".join(title_lines))
+    title = re.sub(r"\s*\(\s*abstract\s*\)\s*", "", title, flags=re.IGNORECASE)
+    title = normalize_space(title)
+
+    if not title:
+        return None
+
+    cleaned_authors: list[str] = []
+    for author in authors:
+        author = normalize_space(markdown_links_to_text(author))
+        if author and author not in cleaned_authors:
+            cleaned_authors.append(author)
 
     return {
         "day": day_label,
         "start": talk_start,
         "end": session["end"],
         "title": title,
-        "authors": authors,
+        "authors": cleaned_authors,
         "presenter": presenter,
-        "abstract_url": abstract_match.group(1),
+        "abstract_url": abstract_url,
         "room": session["room"],
         "session_code": session["session_code"],
         "session_name": session["session_name"],
