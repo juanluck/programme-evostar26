@@ -1,4 +1,4 @@
-# EvoStar 2026 - Friendly programme
+# EvoStar 2026 - Friendly programme.
 
 This repository contains a static GitHub Pages site that rebuilds the EvoStar 2026 programme from the public EasyChair page.
 
