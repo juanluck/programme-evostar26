@@ -762,8 +762,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       border-radius: 18px;
       padding: 14px 16px;
       display: grid;
-      grid-template-columns: 88px 1fr;
-      gap: 12px;
+      grid-template-columns: max-content minmax(0, 1fr);
+      align-items: start;
+      gap: 14px;
       box-shadow: 0 10px 26px rgba(15, 31, 53, .05);
     }
 
@@ -772,6 +773,12 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       color: var(--session-accent, var(--blue));
       white-space: nowrap;
       font-size: 1.02rem;
+      line-height: 1.35;
+      min-width: 104px;
+    }
+
+    .talk-body {
+      min-width: 0;
     }
 
     .talk-title {
@@ -1018,7 +1025,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       return `
         <article class="talk" style="--session-accent:${style.accent}; --session-soft:${style.soft};">
           <div class="talk-time">${escapeHtml(talk.start)}–${escapeHtml(talk.end)}</div>
-          <div>
+          <div class="talk-body">
             <h4 class="talk-title">${escapeHtml(talk.title)}</h4>
             <div class="talk-authors">${escapeHtml((talk.authors || []).join(", "))}</div>
             <div class="talk-links">
