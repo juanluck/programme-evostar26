@@ -1,7 +1,7 @@
 {
   "conference": "EvoStar 2026",
   "source_url": "https://easychair.org/smart-program/evostar2026/index.html",
-  "generated_at_utc": "2026-04-08T11:09:48+00:00",
+  "generated_at_utc": "2026-04-08T12:32:13+00:00",
   "days": [
     {
       "label": "Wednesday, April 8th",
@@ -73,7 +73,7 @@
                 "Gavin Pringle"
               ],
               "presenter": "Gavin Pringle",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306144",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -90,7 +90,7 @@
                 "Carmine Emanuele Cella"
               ],
               "presenter": "Pasquale Mainolfi",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306175",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -109,7 +109,7 @@
                 "Vikram Jamwal"
               ],
               "presenter": "Subhrojyoti Roy Chaudhuri",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306176",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -126,7 +126,7 @@
                 "Neal Anderson"
               ],
               "presenter": "Sanjay Majumder",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306131",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -144,7 +144,7 @@
                 "Lam Pham"
               ],
               "presenter": "Phan Son",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306135",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -161,7 +161,7 @@
                 "Patrick Donnelly"
               ],
               "presenter": "Patrick Donnelly",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306137",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -180,7 +180,7 @@
                 "Aurora Saibene"
               ],
               "presenter": "Alessia Novacco",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306163",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "3A",
               "session_name": "EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)",
@@ -215,7 +215,7 @@
                 "Giovanni Iacca"
               ],
               "presenter": "Erik Nielsen",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306055",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "3B",
               "session_name": "EML 1 - Learning and Optimisation",
@@ -233,7 +233,7 @@
                 "Thambo Nyathi"
               ],
               "presenter": "Nelishia Pillay",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306079",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "3B",
               "session_name": "EML 1 - Learning and Optimisation",
@@ -251,7 +251,7 @@
                 "Michael Kirley"
               ],
               "presenter": "Behzad Moradi",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306052",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "3B",
               "session_name": "EML 1 - Learning and Optimisation",
@@ -285,7 +285,7 @@
                 "Travis Desell"
               ],
               "presenter": "Travis Desell",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306102",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "3C",
               "session_name": "EvoApplications - EvoLLMs (i)",
@@ -306,7 +306,7 @@
                 "Gisele Lobo Pappa"
               ],
               "presenter": "Arthur Rodrigues Chagas",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306119",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "3C",
               "session_name": "EvoApplications - EvoLLMs (i)",
@@ -327,7 +327,7 @@
                 "Heike Trautmann"
               ],
               "presenter": "Urban Skvorc",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306160",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "3C",
               "session_name": "EvoApplications - EvoLLMs (i)",
@@ -345,7 +345,7 @@
                 "Giovanni Iacca"
               ],
               "presenter": "Giovanni Iacca",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306130",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "3C",
               "session_name": "EvoApplications - EvoLLMs (i)",
@@ -373,12 +373,10 @@
               "day": "Wednesday, April 8th",
               "start": "11:00",
               "end": "11:10",
-              "title": "Can Sabrina’s Game be solved by Evolutionary Algorithms?",
-              "authors": [
-                "Daan van den Berg"
-              ],
+              "title": "Daan van den Berg Can Sabrina’s Game be solved by Evolutionary Algorithms?",
+              "authors": [],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306122",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -396,7 +394,7 @@
                 "Penousal Machado"
               ],
               "presenter": "João Correia",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306126",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -415,7 +413,7 @@
                 "Mengjie Zhang"
               ],
               "presenter": "Fangfang Zhang",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308850",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -433,7 +431,7 @@
                 "Nicolas Bredeche"
               ],
               "presenter": "Dari Trendafilov",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308851",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -453,7 +451,7 @@
                 "Sunith Bandaru"
               ],
               "presenter": "Antonio Gaspar-Cunha",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306124",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -472,7 +470,7 @@
                 "Xiao Qin"
               ],
               "presenter": "Libo Sun",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306125",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -492,7 +490,7 @@
                 "Serkan Kiranyaz"
               ],
               "presenter": "Hadil Aldhubiea",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306127",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "3D",
               "session_name": "Evo* Late-Breaking Abstracts (i)",
@@ -526,7 +524,7 @@
                 "Patrick Donnelly"
               ],
               "presenter": "Patrick Donnelly",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306170",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "4A",
               "session_name": "EvoMusArt 2: AI Across Music, Image, Language, and Sound",
@@ -537,12 +535,10 @@
               "day": "Wednesday, April 8th",
               "start": "12:25",
               "end": "12:35",
-              "title": "Music In The Age Of Artificial Intelligence: Meaning And Creativity From A Complex-Systems Perspective",
-              "authors": [
-                "Güncel Gürsel Artıktay"
-              ],
+              "title": "Güncel Gürsel Artıktay Music In The Age Of Artificial Intelligence: Meaning And Creativity From A Complex-Systems Perspective",
+              "authors": [],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306134",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "4A",
               "session_name": "EvoMusArt 2: AI Across Music, Image, Language, and Sound",
@@ -561,7 +557,7 @@
                 "Ousmane Goro"
               ],
               "presenter": "Ousmane Ly",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306142",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "4A",
               "session_name": "EvoMusArt 2: AI Across Music, Image, Language, and Sound",
@@ -578,7 +574,7 @@
                 "Michael Affenzeller"
               ],
               "presenter": "Marcel Salvenmoser",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306133",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "4A",
               "session_name": "EvoMusArt 2: AI Across Music, Image, Language, and Sound",
@@ -594,7 +590,7 @@
                 "Himanshu Dwivedi"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306129",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "4A",
               "session_name": "EvoMusArt 2: AI Across Music, Image, Language, and Sound",
@@ -630,7 +626,7 @@
                 "Mauro Castelli"
               ],
               "presenter": "Davide Farinati",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306150",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "4B",
               "session_name": "EML2 - Short talks",
@@ -647,7 +643,7 @@
                 "Lukas Sekanina"
               ],
               "presenter": "Lukas Sekanina",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306156",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "4B",
               "session_name": "EML2 - Short talks",
@@ -665,7 +661,7 @@
                 "Travis Desell"
               ],
               "presenter": "Travis Desell",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306171",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "4B",
               "session_name": "EML2 - Short talks",
@@ -682,7 +678,7 @@
                 "Ole Jakob Mengshoel"
               ],
               "presenter": "Ole Jakob Mengshoel",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306138",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "4B",
               "session_name": "EML2 - Short talks",
@@ -700,7 +696,7 @@
                 "Chedli Damak"
               ],
               "presenter": "Chedli Damak",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306128",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "4B",
               "session_name": "EML2 - Short talks",
@@ -719,7 +715,7 @@
                 "Dennis Wilson"
               ],
               "presenter": "Estelle Chigot",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306158",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "4B",
               "session_name": "EML2 - Short talks",
@@ -755,7 +751,7 @@
                 "Petros Koumoutsakos"
               ],
               "presenter": "Sebastian Kaltenbach",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306173",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "4C",
               "session_name": "EvoApplications - EvoLLMs (ii)",
@@ -778,7 +774,7 @@
                 "Seyed Jalaleddin Mousavirad"
               ],
               "presenter": "Javier Galvis-Chacon",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306063",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "4C",
               "session_name": "EvoApplications - EvoLLMs (ii)",
@@ -798,7 +794,7 @@
                 "Anne Meyer"
               ],
               "presenter": "Thomas Bömer",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306080",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "4C",
               "session_name": "EvoApplications - EvoLLMs (ii)",
@@ -820,7 +816,7 @@
                 "J. Ignacio Hidalgo"
               ],
               "presenter": "Berfin Sakallioglu",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306174",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "4C",
               "session_name": "EvoApplications - EvoLLMs (ii)",
@@ -858,7 +854,7 @@
                 "Penousal Machado"
               ],
               "presenter": "Sérgio Rebelo",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308114",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "4D",
               "session_name": "Evo* Late-Breaking Abstracts (ii)",
@@ -874,7 +870,7 @@
                 "Zinoo Park"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308115",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "4D",
               "session_name": "Evo* Late-Breaking Abstracts (ii)",
@@ -885,12 +881,10 @@
               "day": "Wednesday, April 8th",
               "start": "12:35",
               "end": "12:45",
-              "title": "Valid Protein Folding Conformations in HP Might Be Fractally Distributed",
-              "authors": [
-                "Daan van den Berg"
-              ],
+              "title": "Daan van den Berg Valid Protein Folding Conformations in HP Might Be Fractally Distributed",
+              "authors": [],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306123",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "4D",
               "session_name": "Evo* Late-Breaking Abstracts (ii)",
@@ -907,7 +901,7 @@
                 "Radek Veselsky"
               ],
               "presenter": "Michal Bidlo",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308397",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "4D",
               "session_name": "Evo* Late-Breaking Abstracts (ii)",
@@ -925,7 +919,7 @@
                 "Stephen Kelly"
               ],
               "presenter": "Ali Naqvi",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308852",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "4D",
               "session_name": "Evo* Late-Breaking Abstracts (ii)",
@@ -978,7 +972,7 @@
                 "Anindya Maiti"
               ],
               "presenter": "Khoi Trinh",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306053",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "5A",
               "session_name": "EvoMUSART 3 - AI in Artistic Practice",
@@ -995,7 +989,7 @@
                 "Megan Smith"
               ],
               "presenter": "Najam-Ul Assar",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306061",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "5A",
               "session_name": "EvoMUSART 3 - AI in Artistic Practice",
@@ -1014,7 +1008,7 @@
                 "Claudiu Dan Creangă"
               ],
               "presenter": "Claudiu Dan Creangă",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306094",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "5A",
               "session_name": "EvoMUSART 3 - AI in Artistic Practice",
@@ -1032,7 +1026,7 @@
                 "Florentin Eraud"
               ],
               "presenter": "Alain Lioret",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306147",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "5A",
               "session_name": "EvoMUSART 3 - AI in Artistic Practice",
@@ -1049,7 +1043,7 @@
                 "Hassan Sawaf"
               ],
               "presenter": "Kamer Ali Yuksel",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306161",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "5A",
               "session_name": "EvoMUSART 3 - AI in Artistic Practice",
@@ -1067,7 +1061,7 @@
                 "Richard Allmendinger"
               ],
               "presenter": "Tanguy Pocquet",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306151",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "5A",
               "session_name": "EvoMUSART 3 - AI in Artistic Practice",
@@ -1100,7 +1094,7 @@
                 "Vladimir Stanovov"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306064",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "5B",
               "session_name": "EuroGP - Best Paper nominations",
@@ -1118,7 +1112,7 @@
                 "Wolfgang Banzhaf"
               ],
               "presenter": "Mark Kocherovsky",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306089",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "5B",
               "session_name": "EuroGP - Best Paper nominations",
@@ -1129,15 +1123,10 @@
               "day": "Wednesday, April 8th",
               "start": "15:05",
               "end": "15:30",
-              "title": "Semantic Search Trajectory Networks for Understanding Genetic Programming",
-              "authors": [
-                "Josip Hrvatić",
-                "Magda Smolić-Ročak",
-                "Marko Đurasević",
-                "Gabriela Ochoa"
-              ],
+              "title": "Josip Hrvatić , Magda Smolić-Ročak , Marko Đurasević and Gabriela Ochoa Semantic Search Trajectory Networks for Understanding Genetic Programming",
+              "authors": [],
               "presenter": "Josip Hrvatić",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306095",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "5B",
               "session_name": "EuroGP - Best Paper nominations",
@@ -1155,7 +1144,7 @@
                 "James McDermott"
               ],
               "presenter": "Fitria Wulandari Ramlan",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306120",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "5B",
               "session_name": "EuroGP - Best Paper nominations",
@@ -1188,7 +1177,7 @@
                 "Denis Pallez"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306070",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "5C",
               "session_name": "EvoApplications: Opinions and trends",
@@ -1206,7 +1195,7 @@
                 "Fred Glover"
               ],
               "presenter": "Stefan Voss",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306073",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "5C",
               "session_name": "EvoApplications: Opinions and trends",
@@ -1217,28 +1206,10 @@
               "day": "Wednesday, April 8th",
               "start": "15:05",
               "end": "15:30",
-              "title": "Benchmarking that Matters: Rethinking Benchmarking for Practical Impact",
-              "authors": [
-                "Anna V. Kononova",
-                "Niki van Stein",
-                "Olaf Mersmann",
-                "Thomas Bäck",
-                "Thomas Bartz-Beielstein",
-                "Tobias Glasmachers",
-                "Michael Hellwig",
-                "Sebastian Krey",
-                "Jakub Kudela",
-                "Boris Naujoks",
-                "Leonard Papenmeier",
-                "Elena Raponi",
-                "Quentin Renau",
-                "Jeroen Rook",
-                "Lennart Schäpermeier",
-                "Diederick Vermetten",
-                "Daniela Zaharie"
-              ],
+              "title": "Anna V. Kononova , Niki van Stein , Olaf Mersmann , Thomas Bäck , Thomas Bartz-Beielstein , Tobias Glasmachers , Michael Hellwig , Sebastian Krey , Jakub Kudela , Boris Naujoks , Leonard Papenmeier , Elena Raponi , Quentin Renau , Jeroen Rook , Lennart Schäpermeier , Diederick Vermetten and Daniela Zaharie Benchmarking that Matters: Rethinking Benchmarking for Practical Impact",
+              "authors": [],
               "presenter": "Anna V. Kononova",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306106",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "5C",
               "session_name": "EvoApplications: Opinions and trends",
@@ -1256,7 +1227,7 @@
                 "Thomas Baeck"
               ],
               "presenter": "Anna V. Kononova",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306107",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "5C",
               "session_name": "EvoApplications: Opinions and trends",
@@ -1277,7 +1248,7 @@
                 "Thangavelu S"
               ],
               "presenter": "Ritwik Murali",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306167",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "5C",
               "session_name": "EvoApplications: Opinions and trends",
@@ -1313,7 +1284,7 @@
                 "Giovanni Iacca"
               ],
               "presenter": "Stefano Genetti",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306050",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "5D",
               "session_name": "EvoApplications: Computational Intelligence for sustainability",
@@ -1332,7 +1303,7 @@
                 "Alejandro Arbelaez"
               ],
               "presenter": "Alejandro Arbelaez",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306078",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "5D",
               "session_name": "EvoApplications: Computational Intelligence for sustainability",
@@ -1351,7 +1322,7 @@
                 "Sergio Pérez"
               ],
               "presenter": "Jamal Toutouh",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306105",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "5D",
               "session_name": "EvoApplications: Computational Intelligence for sustainability",
@@ -1369,7 +1340,7 @@
                 "Valentino Santucci"
               ],
               "presenter": "Fabrizio Fagiolo",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306112",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "5D",
               "session_name": "EvoApplications: Computational Intelligence for sustainability",
@@ -1386,7 +1357,7 @@
                 "Malek Mouhoub"
               ],
               "presenter": "Aymen Ben Said",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306145",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "5D",
               "session_name": "EvoApplications: Computational Intelligence for sustainability",
@@ -1405,7 +1376,7 @@
                 "Mohamed Ouzineb"
               ],
               "presenter": "Mustapha Oudani",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306157",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "5D",
               "session_name": "EvoApplications: Computational Intelligence for sustainability",
@@ -1452,7 +1423,7 @@
                 "Tam Nguyen"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306051",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "6A",
               "session_name": "EvoApplications: Scheduling and Code Optimisation",
@@ -1471,7 +1442,7 @@
                 "Mohamed Wahib"
               ],
               "presenter": "João Eduardo Batista",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306065",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "6A",
               "session_name": "EvoApplications: Scheduling and Code Optimisation",
@@ -1489,7 +1460,7 @@
                 "Shivashankar B. Nair"
               ],
               "presenter": "Jayprakash S. Nair",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306132",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "6A",
               "session_name": "EvoApplications: Scheduling and Code Optimisation",
@@ -1507,7 +1478,7 @@
                 "Vojtech Mrazek"
               ],
               "presenter": "David Sedlák",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306169",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "6A",
               "session_name": "EvoApplications: Scheduling and Code Optimisation",
@@ -1542,7 +1513,7 @@
                 "Eric Medvet"
               ],
               "presenter": "Giorgia Nadizar",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306140",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "6B",
               "session_name": "EuroGP Representations and semantics",
@@ -1561,7 +1532,7 @@
                 "Karol Desnos"
               ],
               "presenter": "Quentin Vacher",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306153",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "6B",
               "session_name": "EuroGP Representations and semantics",
@@ -1580,7 +1551,7 @@
                 "Nathaniel Haut"
               ],
               "presenter": "Yuri Lavinas",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306154",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "6B",
               "session_name": "EuroGP Representations and semantics",
@@ -1600,7 +1571,7 @@
                 "David Simoncini"
               ],
               "presenter": "Christina Berghegger",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306162",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "6B",
               "session_name": "EuroGP Representations and semantics",
@@ -1617,7 +1588,7 @@
                 "Leonardo Vanneschi"
               ],
               "presenter": "Sofia Pereira",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306172",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "6B",
               "session_name": "EuroGP Representations and semantics",
@@ -1636,7 +1607,7 @@
                 "Mengjie Zhang"
               ],
               "presenter": "Qi Chen",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306149",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "6B",
               "session_name": "EuroGP Representations and semantics",
@@ -1674,7 +1645,7 @@
                 "Daniela Besozzi"
               ],
               "presenter": "Daniele Maria Papetti",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306047",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "6C",
               "session_name": "EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems",
@@ -1691,7 +1662,7 @@
                 "Masao Arakawa"
               ],
               "presenter": "So Fukuhara",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306116",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "6C",
               "session_name": "EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems",
@@ -1708,7 +1679,7 @@
                 "Peter Tino"
               ],
               "presenter": "Shanshan Mao",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306148",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "6C",
               "session_name": "EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems",
@@ -1727,7 +1698,7 @@
                 "Carlos Cotta"
               ],
               "presenter": "Andrés Bueno-Crespo",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306165",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "6C",
               "session_name": "EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems",
@@ -1748,7 +1719,7 @@
                 "Raffaella Todino"
               ],
               "presenter": "Giorgio Mongardi",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306146",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "6C",
               "session_name": "EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems",
@@ -1766,7 +1737,7 @@
                 "Giovanni Iacca"
               ],
               "presenter": "Erik Nielsen",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306139",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "6C",
               "session_name": "EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems",
@@ -1803,7 +1774,7 @@
                 "Mengjie Zhang"
               ],
               "presenter": "Taran Cyriac John",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306141",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1820,7 +1791,7 @@
                 "Qi Cheng"
               ],
               "presenter": "Ahmad Tashfeen",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306136",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1837,7 +1808,7 @@
                 "Alexander Hvatov"
               ],
               "presenter": "Xeniya Bashkova",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306143",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1848,17 +1819,10 @@
               "day": "Wednesday, April 8th",
               "start": "16:55",
               "end": "17:05",
-              "title": "On Counts and Densities of Homogeneous Bent Functions: An Evolutionary Approach",
-              "authors": [
-                "Claude Carlet",
-                "Marko Đurasević",
-                "Domagoj Jakobovic",
-                "Luca Mariot",
-                "Stjepan Picek",
-                "Alexandr Polujan"
-              ],
+              "title": "Claude Carlet , Marko Đurasević , Domagoj Jakobovic , Luca Mariot , Stjepan Picek and Alexandr Polujan On Counts and Densities of Homogeneous Bent Functions: An Evolutionary Approach",
+              "authors": [],
               "presenter": "Luca Mariot",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306152",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1879,7 +1843,7 @@
                 "David Panzoli"
               ],
               "presenter": "Joao Martin-Saquet",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306155",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1896,7 +1860,7 @@
                 "Kazi Shah Nawaz Ripon"
               ],
               "presenter": "Kazi Shah Nawaz Ripon",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306159",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1907,13 +1871,10 @@
               "day": "Wednesday, April 8th",
               "start": "17:25",
               "end": "17:35",
-              "title": "Enhancing Genetic Algorithms with Graph Neural Networks: A Timetabling Case Study",
-              "authors": [
-                "Laura-Maria Cornei",
-                "Mihaela-Elena Breabăn"
-              ],
+              "title": "Laura-Maria Cornei and Mihaela-Elena Breabăn Enhancing Genetic Algorithms with Graph Neural Networks: A Timetabling Case Study",
+              "authors": [],
               "presenter": "Laura-Maria Cornei",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306164",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1930,7 +1891,7 @@
                 "Pierre Parrend"
               ],
               "presenter": "Côme Frappé-Vialatoux",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306166",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -1949,7 +1910,7 @@
                 "Telmo Pinto"
               ],
               "presenter": "Pedro Ferreira",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306168",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "6D",
               "session_name": "EvoApplications: New trends",
@@ -2018,7 +1979,7 @@
                 "Adolfo Escobedo"
               ],
               "presenter": "Abeer Abdelhadi",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306101",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "8A",
               "session_name": "EvoCOP 1: Best Paper nominations",
@@ -2036,7 +1997,7 @@
                 "Padraig Corcoran"
               ],
               "presenter": "Daniel Hambly",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306058",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "8A",
               "session_name": "EvoCOP 1: Best Paper nominations",
@@ -2055,7 +2016,7 @@
                 "Surendra Kurivella"
               ],
               "presenter": "Francesco Cecere",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306114",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "8A",
               "session_name": "EvoCOP 1: Best Paper nominations",
@@ -2073,7 +2034,7 @@
                 "Shinichi Shirakawa"
               ],
               "presenter": "Yutaro Yamada",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306118",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "8A",
               "session_name": "EvoCOP 1: Best Paper nominations",
@@ -2111,7 +2072,7 @@
                 "Wolfgang Banzhaf"
               ],
               "presenter": "Mark Kocherovsky",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306090",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "8B",
               "session_name": "EuroGP 3: GP Encodings",
@@ -2134,7 +2095,7 @@
                 "Leonardo Vanneschi"
               ],
               "presenter": "Gorka Silva",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306108",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "8B",
               "session_name": "EuroGP 3: GP Encodings",
@@ -2150,7 +2111,7 @@
                 "Philipp Anthes"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306068",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "8B",
               "session_name": "EuroGP 3: GP Encodings",
@@ -2167,7 +2128,7 @@
                 "Stephen Kelly"
               ],
               "presenter": "Ali Naqvi",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306117",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "8B",
               "session_name": "EuroGP 3: GP Encodings",
@@ -2195,15 +2156,10 @@
               "day": "Thursday, April 9th",
               "start": "09:00",
               "end": "09:25",
-              "title": "A Constructive Method to Build Many Valid Initial Solutions for the Traveling Tournament Problem",
-              "authors": [
-                "Guilherme Nakahata",
-                "Florian Richoux",
-                "Daan van den Berg",
-                "Claus Aranha"
-              ],
+              "title": "Guilherme Nakahata , Florian Richoux , Daan van den Berg and Claus Aranha A Constructive Method to Build Many Valid Initial Solutions for the Traveling Tournament Problem",
+              "authors": [],
               "presenter": "Florian Richoux",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306075",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "8C",
               "session_name": "EvoApplications: Problem modeling",
@@ -2220,7 +2176,7 @@
                 "Alberto Moraglio"
               ],
               "presenter": "Jiajie Liu",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306077",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "8C",
               "session_name": "EvoApplications: Problem modeling",
@@ -2240,7 +2196,7 @@
                 "Elena Raponi"
               ],
               "presenter": "Jelle Westra",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306091",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "8C",
               "session_name": "EvoApplications: Problem modeling",
@@ -2257,7 +2213,7 @@
                 "Abhay Bhandarkar"
               ],
               "presenter": "Abhay Bhandarkar",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306092",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "8C",
               "session_name": "EvoApplications: Problem modeling",
@@ -2291,7 +2247,7 @@
                 "Michael Emmerich"
               ],
               "presenter": "Soumen Atta",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306074",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "8D",
               "session_name": "EvoApplications: Misc applications (ii)",
@@ -2311,7 +2267,7 @@
                 "Agosten Eiben"
               ],
               "presenter": "Jed Muff",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306083",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "8D",
               "session_name": "EvoApplications: Misc applications (ii)",
@@ -2322,13 +2278,10 @@
               "day": "Thursday, April 9th",
               "start": "09:50",
               "end": "10:40",
-              "title": "Evolutionary Design of Specialized Image Compression Operators",
-              "authors": [
-                "Lukáš Plevač",
-                "Zdeněk Vašíček"
-              ],
+              "title": "Lukáš Plevač and Zdeněk Vašíček Evolutionary Design of Specialized Image Compression Operators",
+              "authors": [],
               "presenter": "Lukáš Plevač",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306097",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "8D",
               "session_name": "EvoApplications: Misc applications (ii)",
@@ -2376,7 +2329,7 @@
                 "Nana Amowee Dawson"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306056",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "9A",
               "session_name": "EvoMusArt Creative AI for Sound, Embodiment, & Media (incl. Best Paper Noms.)",
@@ -2393,7 +2346,7 @@
                 "Yueshen Wu"
               ],
               "presenter": "Yueshen Wu",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306088",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "9A",
               "session_name": "EvoMusArt Creative AI for Sound, Embodiment, & Media (incl. Best Paper Noms.)",
@@ -2411,7 +2364,7 @@
                 "Sam Nallaperuma-Herzberg"
               ],
               "presenter": "Kevin Monteiro",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306060",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "9A",
               "session_name": "EvoMusArt Creative AI for Sound, Embodiment, & Media (incl. Best Paper Noms.)",
@@ -2447,7 +2400,7 @@
                 "Wei Xia"
               ],
               "presenter": "Shanxian Lin",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306054",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "9B",
               "session_name": "EvoApplications: Real World Systems",
@@ -2464,7 +2417,7 @@
                 "Amar Halilovic"
               ],
               "presenter": "Pinar Karadayi Atas",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306081",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "9B",
               "session_name": "EvoApplications: Real World Systems",
@@ -2482,7 +2435,7 @@
                 "Mengjie Zhang"
               ],
               "presenter": "Saining Liu",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306103",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "9B",
               "session_name": "EvoApplications: Real World Systems",
@@ -2517,7 +2470,7 @@
                 "Giovanni Iacca"
               ],
               "presenter": "Renan Beran Kilic",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306057",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "9C",
               "session_name": "EML 3 - Neuroevolution and AutoML",
@@ -2538,7 +2491,7 @@
                 "Sylvain Cussat-Blanc"
               ],
               "presenter": "Camilo De La Torre",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306067",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "9C",
               "session_name": "EML 3 - Neuroevolution and AutoML",
@@ -2555,7 +2508,7 @@
                 "João Correia"
               ],
               "presenter": "Joana Simões",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306084",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "9C",
               "session_name": "EML 3 - Neuroevolution and AutoML",
@@ -2591,7 +2544,7 @@
                 "Damien Olivier"
               ],
               "presenter": "Juan Luis Jiménez Laredo",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306086",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "9D",
               "session_name": "EvoApplications: Cloud, edge and fog computing",
@@ -2608,7 +2561,7 @@
                 "Nelishia Pillay"
               ],
               "presenter": "Shruti Lall",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306087",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "9D",
               "session_name": "EvoApplications: Cloud, edge and fog computing",
@@ -2627,7 +2580,7 @@
                 "Davide Calvaresi"
               ],
               "presenter": "Elia Pacioni",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306110",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "9D",
               "session_name": "EvoApplications: Cloud, edge and fog computing",
@@ -2724,7 +2677,7 @@
                 "Tiziana D'Alessandro"
               ],
               "presenter": "Emanuele Nardone",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306066",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "12A",
               "session_name": "EvoApplications Best Paper nominations",
@@ -2741,7 +2694,7 @@
                 "Michal Bidlo"
               ],
               "presenter": "Karel Fritz",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306072",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "12A",
               "session_name": "EvoApplications Best Paper nominations",
@@ -2758,7 +2711,7 @@
                 "Mihai-Lucian Ene"
               ],
               "presenter": "Mihai-Lucian Ene",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306121",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "12A",
               "session_name": "EvoApplications Best Paper nominations",
@@ -2793,7 +2746,7 @@
                 "Hassan Sawaf"
               ],
               "presenter": "Kamer Ali Yuksel",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306071",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "12B",
               "session_name": "EvoMusArt 5 - AI for Music",
@@ -2811,7 +2764,7 @@
                 "Joanie Verviers-Deblois"
               ],
               "presenter": "Serge Lacasse",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306113",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "12B",
               "session_name": "EvoMusArt 5 - AI for Music",
@@ -2828,7 +2781,7 @@
                 "Patrick Donnelly"
               ],
               "presenter": "Patrick Donnelly",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306115",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "12B",
               "session_name": "EvoMusArt 5 - AI for Music",
@@ -2846,7 +2799,7 @@
                 "Eyal Leizerovich"
               ],
               "presenter": "Eyal Briman",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306059",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "12B",
               "session_name": "EvoMusArt 5 - AI for Music",
@@ -2879,7 +2832,7 @@
                 "Martin Briesch"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306049",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "12C",
               "session_name": "EuroGP 4: GP Evolution",
@@ -2898,7 +2851,7 @@
                 "Matheus Fernandes"
               ],
               "presenter": "Fabricio de Franca",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306100",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "12C",
               "session_name": "EuroGP 4: GP Evolution",
@@ -2916,7 +2869,7 @@
                 "Unamay O'Reilly"
               ],
               "presenter": "Unamay O'Reilly",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306099",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "12C",
               "session_name": "EuroGP 4: GP Evolution",
@@ -2951,7 +2904,7 @@
                 "Habib Chabchoub"
               ],
               "presenter": "Sirine Jmal",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306048",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "12D",
               "session_name": "EvoCOP 3: Learning-enhanced approaches",
@@ -2968,7 +2921,7 @@
                 "Ammar Oulamara"
               ],
               "presenter": "Mohamed-Amine Ouberkouk",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306096",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "12D",
               "session_name": "EvoCOP 3: Learning-enhanced approaches",
@@ -2986,7 +2939,7 @@
                 "Günther Raidl"
               ],
               "presenter": "Martin Wustinger",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306111",
+              "abstract_url": null,
               "room": "Room D",
               "session_code": "12D",
               "session_name": "EvoCOP 3: Learning-enhanced approaches",
@@ -3069,7 +3022,7 @@
                 "Jörn Ostermann"
               ],
               "presenter": "Reem Hinrichs",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306069",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "13A",
               "session_name": "EvoMusArt 6 - AI for Sound and Image",
@@ -3085,7 +3038,7 @@
                 "Adrián García Riber"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306104",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "13A",
               "session_name": "EvoMusArt 6 - AI for Sound and Image",
@@ -3102,7 +3055,7 @@
                 "Hassan Sawaf"
               ],
               "presenter": "Kamer Ali Yuksel",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306076",
+              "abstract_url": null,
               "room": "Room A",
               "session_code": "13A",
               "session_name": "EvoMusArt 6 - AI for Sound and Image",
@@ -3136,7 +3089,7 @@
                 "Carsten Witt"
               ],
               "presenter": "Sumit Adak",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306082",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "13B",
               "session_name": "EvoCOP: Traditional Approaches",
@@ -3157,7 +3110,7 @@
                 "Francisco Chicano"
               ],
               "presenter": null,
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306098",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "13B",
               "session_name": "EvoCOP: Traditional Approaches",
@@ -3178,7 +3131,7 @@
                 "Laure Brisoux Devendeville"
               ],
               "presenter": "Sarah Degaugue",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306109",
+              "abstract_url": null,
               "room": "Room B",
               "session_code": "13B",
               "session_name": "EvoCOP: Traditional Approaches",
@@ -3212,7 +3165,7 @@
                 "Daniel Tauritz"
               ],
               "presenter": "Deacon Seals",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306062",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "13C",
               "session_name": "EvoApplications: Games",
@@ -3230,7 +3183,7 @@
                 "Pablo García-Sánchez"
               ],
               "presenter": "Pablo García-Sánchez",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306085",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "13C",
               "session_name": "EvoApplications: Games",
@@ -3247,7 +3200,7 @@
                 "Malcolm Heywood"
               ],
               "presenter": "Robert Smith",
-              "abstract_url": "https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306093",
+              "abstract_url": null,
               "room": "Room C",
               "session_code": "13C",
               "session_name": "EvoApplications: Games",
@@ -3346,7 +3299,7 @@
           "room": null,
           "room_url": null,
           "talks": [],
-          "notes": null,
+          "notes": "Disclaimer | Powered by EasyChair Smart Program",
           "session_code": null,
           "session_name": "Optional: afternoon social trip",
           "theme": "Social"

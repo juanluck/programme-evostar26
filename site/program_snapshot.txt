@@ -1,1 +1,1287 @@
-Bundled seed snapshot not included in this package. Run the scraper to refresh from EasyChair.
+Source URL: https://easychair.org/smart-program/evostar2026/index.html
+
+Structured Content:
+
+EVOSTAR2026: EVOSTAR2026
+
+[PROGRAM](https://easychair.org/smart-program/evostar2026/index.html) [AUTHORS](https://easychair.org/smart-program/evostar2026/talk_author_index.html) [KEYWORDS](https://easychair.org/smart-program/evostar2026/talk_keyword_index.html)
+
+PROGRAM
+
+Days: [Wednesday, April 8th](https://easychair.org/smart-program/evostar2026/2026-04-08.html) [Thursday, April 9th](https://easychair.org/smart-program/evostar2026/2026-04-09.html) [Friday, April 10th](https://easychair.org/smart-program/evostar2026/2026-04-10.html)
+
+Wednesday, April 8th
+
+View this program: [with abstracts](https://easychair.org/smart-program/evostar2026/2026-04-08.html) [session overview](https://easychair.org/smart-program/evostar2026/bysession-2026-04-08.html) [talk overview](https://easychair.org/smart-program/evostar2026/bytalk-2026-04-08.html)
+
+09:15-09:40 Session 1: Conference opening (Room A)
+
+Chair:
+
+[Sylvain Cussat-Blanc](https://easychair.org/smart-program/evostar2026/person365.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+09:40-10:40 Session 2: Plenary invited talk: Simon Lucas (Room: A)
+
+Chair:
+
+[Nuno Lourenço](https://easychair.org/smart-program/evostar2026/person120.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+10:40-11:00 Coffee break
+
+11:00-12:15 Session 3A: EvoMusArt 1: AI Across Music, Image, Language, and Sound (Short talks)
+
+Chair:
+
+[Nereida Rodriguez-Fernandez](https://easychair.org/smart-program/evostar2026/person133.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+11:00
+
+Takeshi Matsumura and Gavin Pringle
+Weather Sonification via a Latent Emotion Space: A Deep Learning Approach ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306144) )
+
+PRESENTER: [Gavin Pringle](https://easychair.org/smart-program/evostar2026/person271.html)
+
+11:10
+
+Pasquale Mainolfi and Carmine Emanuele Cella
+Segmentation-Free Sound Hybridization for Creative Outcomes ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306175) )
+
+PRESENTER: [Pasquale Mainolfi](https://easychair.org/smart-program/evostar2026/person272.html)
+
+11:20
+
+Subhrojyoti Roy Chaudhuri , Sai Pranav Madupu , Krishna Teja Guru Sai and Vikram Jamwal
+LoopMatcher: Proof-of-Concept for AI-Assisted Music Loop Search ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306176) )
+
+PRESENTER: [Subhrojyoti Roy Chaudhuri](https://easychair.org/smart-program/evostar2026/person274.html)
+
+11:30
+
+Sanjay Majumder and Neal Anderson
+Quantum Latent Spaces for Symbolic Music Generation ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306131) )
+
+PRESENTER: [Sanjay Majumder](https://easychair.org/smart-program/evostar2026/person278.html)
+
+11:40
+
+Phan Son , Nguyen Nghi and Lam Pham
+End-to-End Song Structure Segmentation via Encoder–Decoder Network Architecture and Hand-Crafted Features ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306135) )
+
+PRESENTER: [Phan Son](https://easychair.org/smart-program/evostar2026/person280.html)
+
+11:50
+
+Derek Kwan and Patrick Donnelly
+Probing for Advanced Music Theory Concepts in Generative Music Models ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306137) )
+
+PRESENTER: [Patrick Donnelly](https://easychair.org/smart-program/evostar2026/person99.html)
+
+12:00
+
+Alessia Novacco , Francesca Gasparini , Giulia Rizzi and Aurora Saibene
+Decoding Emotions: Multimodal integration of deep embeddings, lyrics and music-aware cues ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306163) )
+
+PRESENTER: [Alessia Novacco](https://easychair.org/smart-program/evostar2026/person284.html)
+
+11:00-12:15 Session 3B: EML 1 - Learning and Optimisation
+
+Chair:
+
+[Mengjie Zhang](https://easychair.org/smart-program/evostar2026/person269.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+11:00
+
+Erik Nielsen , Alessandro Lorenzi and Giovanni Iacca
+Quality-Diversity Optimization Meets Neuron-centric Hebbian Learning ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306055) )
+
+PRESENTER: [Erik Nielsen](https://easychair.org/smart-program/evostar2026/person289.html)
+
+11:25
+
+Kanchan Rajwar , Nelishia Pillay and Thambo Nyathi
+PITL-DE: Problem-Independent Transfer Learning in Differential Evolution for Continuous Optimization ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306079) )
+
+PRESENTER: [Nelishia Pillay](https://easychair.org/smart-program/evostar2026/person54.html)
+
+11:50
+
+Behzad Moradi , Mario André Muñoz and Michael Kirley
+Generalisation of Automated Algorithm Selection in Black-Box Optimisation: The Role of Algorithm Portfolio and Learning Model ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306052) )
+
+PRESENTER: [Behzad Moradi](https://easychair.org/smart-program/evostar2026/person287.html)
+
+11:00-12:15 Session 3C: EvoApplications - EvoLLMs (i)
+
+Chair:
+
+[Anna Kononova](https://easychair.org/smart-program/evostar2026/person200.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+11:00
+
+Onkar Shelar and Travis Desell
+ToxSearch: Evolving Prompts for Toxicity Search in Large Language Models ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306102) )
+
+PRESENTER: [Travis Desell](https://easychair.org/smart-program/evostar2026/person172.html)
+
+11:25
+
+Pedro Augusto Torres Bento , Arthur Buzelin Galery , Yan Aquino Amorim , Arthur Rodrigues Chagas , Wagner Meira Jr. and Gisele Lobo Pappa
+Evo-Reasoner: Evolutionary Optimization of Structured Reasoning in LLMs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306119) )
+
+PRESENTER: [Arthur Rodrigues Chagas](https://easychair.org/smart-program/evostar2026/person348.html)
+
+11:50
+
+Urban Skvorc , Niki van Stein , Moritz Seiler , Britta Grimme , Thomas Bäck and Heike Trautmann
+LLM Driven Design of Continuous Optimization Problems with Controllable High-level Properties ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306160) )
+
+PRESENTER: [Urban Skvorc](https://easychair.org/smart-program/evostar2026/person351.html)
+
+12:00
+
+Andrea Ceron , Ivan Donà and Giovanni Iacca
+CLIP Prompt Optimization with Evolutionary-Driven LLMs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306130) )
+
+PRESENTER: [Giovanni Iacca](https://easychair.org/smart-program/evostar2026/person197.html)
+
+11:00-12:15 Session 3D: Evo* Late-Breaking Abstracts (i)
+
+Chair:
+
+[Antonio Mora](https://easychair.org/smart-program/evostar2026/person217.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+11:00
+
+Daan van den Berg
+Can Sabrina’s Game be solved by Evolutionary Algorithms? ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306122) )
+
+11:10
+
+João Artur , João Correia and Penousal Machado
+FairGenes: An Evolutionary Approach for Bias Mitigation in Non-Binary Sensitive Attributes ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306126) )
+
+PRESENTER: [João Correia](https://easychair.org/smart-program/evostar2026/person94.html)
+
+11:20
+
+Luyao Zhu , Fangfang Zhang , Yi Mei and Mengjie Zhang
+Surrogate-assisted Lifelong Learning of Scheduling Rules with Genetic Programming for Dynamic Flexible Job Shop Scheduling ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308850) )
+
+PRESENTER: [Fangfang Zhang](https://easychair.org/smart-program/evostar2026/person78.html)
+
+11:30
+
+Dari Trendafilov , Alessia Loi and Nicolas Bredeche
+Beyond Random Walk: Evolving Structured Exploration via Stigmergic Selection in Robotic Swarms ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308851) )
+
+PRESENTER: [Dari Trendafilov](https://easychair.org/smart-program/evostar2026/person795.html)
+
+11:40
+
+Antonio Gaspar-Cunha , João Melo , Tomás Marques , António Pontes and Sunith Bandaru
+Multi-Objective Optimization and Decision Support for Conformal Cooling in Injection Molding ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306124) )
+
+PRESENTER: [Antonio Gaspar-Cunha](https://easychair.org/smart-program/evostar2026/person305.html)
+
+11:50
+
+Libo Sun , Peixiong He , Po-Wei Harn and Xiao Qin
+Random Search Matches EA for MoE Topology ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306125) )
+
+PRESENTER: [Libo Sun](https://easychair.org/smart-program/evostar2026/person310.html)
+
+12:00
+
+Hadil Aldhubiea , Noora Fetais , Muhammad E. H. Chowdhury , Ponnuthurai N. Suganthan and Serkan Kiranyaz
+Diabetic Foot Ulcer Severity Grading into Four Wagner–Meggitt Classes: Impact of Label Verification and Data Augmentation ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306127) )
+
+PRESENTER: [Hadil Aldhubiea](https://easychair.org/smart-program/evostar2026/person315.html)
+
+12:15-13:25 Session 4A: EvoMusArt 2: AI Across Music, Image, Language, and Sound
+
+Chair:
+
+[Nereida Rodriguez-Fernandez](https://easychair.org/smart-program/evostar2026/person133.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+12:15
+
+Peter McCabe and Patrick Donnelly
+Classifying Audio Timbre Without Audio Using Text-only Training ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306170) )
+
+PRESENTER: [Patrick Donnelly](https://easychair.org/smart-program/evostar2026/person99.html)
+
+12:25
+
+Güncel Gürsel Artıktay
+Music In The Age Of Artificial Intelligence: Meaning And Creativity From A Complex-Systems Perspective ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306134) )
+
+12:35
+
+Michael Leventhal , Nouhoum Coulibaly , Ousmane Ly and Ousmane Goro
+Generative Artificial Intelligence, Musical Heritage and the Construction of Peace Narratives: A Case Study in Mali ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306142) )
+
+PRESENTER: [Ousmane Ly](https://easychair.org/smart-program/evostar2026/person324.html)
+
+12:45
+
+Marcel Salvenmoser and Michael Affenzeller
+Multi-Objective Evolution of Diffusion Model Prompt Embeddings using CLIP-IQA ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306133) )
+
+PRESENTER: [Marcel Salvenmoser](https://easychair.org/smart-program/evostar2026/person326.html)
+
+12:55
+
+Himanshu Dwivedi
+Crystallizing Semantics: Mapping the Journey of Word Meaning in Language Models ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306129) )
+
+12:15-13:25 Session 4B: EML2 - Short talks
+
+Chair:
+
+[João Correia](https://easychair.org/smart-program/evostar2026/person94.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+12:15
+
+Davide Farinati , Frederico J.J.B. Santos , Leonardo Vanneschi and Mauro Castelli
+NEVO-GSPT: Population-Based Neural Network Evolution Using Inflate and Deflate Operators ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306150) )
+
+PRESENTER: [Davide Farinati](https://easychair.org/smart-program/evostar2026/person342.html)
+
+12:25
+
+David Nepras and Lukas Sekanina
+Multi-Objective Evolutionary Neural Architecture Search for Hailo Accelerators ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306156) )
+
+PRESENTER: [Lukas Sekanina](https://easychair.org/smart-program/evostar2026/person335.html)
+
+12:35
+
+Abhishek Singh , Zimeng Lyu and Travis Desell
+Biologically-Inspired Homeostasis for Neuroevolution: Alternating Growth and Pruning Phases ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306171) )
+
+PRESENTER: [Travis Desell](https://easychair.org/smart-program/evostar2026/person172.html)
+
+12:45
+
+William Gjerberg Tresselt and Ole Jakob Mengshoel
+TensorRankNEAT: Speeding up Preference Learning in Neuroevolution via Tensorization ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306138) )
+
+PRESENTER: [Ole Jakob Mengshoel](https://easychair.org/smart-program/evostar2026/person333.html)
+
+12:55
+
+Boukthir Haddar , Mohamed Ali Elleuch and Chedli Damak
+Learning to Search: A Reinforcement Learning Agent for Global Optimization ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306128) )
+
+PRESENTER: [Chedli Damak](https://easychair.org/smart-program/evostar2026/person331.html)
+
+13:05
+
+Estelle Chigot , Thomas Oberlin , Manon Huguenin and Dennis Wilson
+Multi-Objective Optimization for Synthetic-to-Real Style Transfer ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306158) )
+
+PRESENTER: [Estelle Chigot](https://easychair.org/smart-program/evostar2026/person336.html)
+
+12:15-13:25 Session 4C: EvoApplications - EvoLLMs (ii)
+
+Chair:
+
+[Anna Kononova](https://easychair.org/smart-program/evostar2026/person200.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+12:15
+
+Vasileios Saketos , Sebastian Kaltenbach , Sergey Litvinov and Petros Koumoutsakos
+Data-Driven Discovery of Interpretable Kalman Filter Variants through Large Language Models and Genetic Programming ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306173) )
+
+PRESENTER: [Sebastian Kaltenbach](https://easychair.org/smart-program/evostar2026/person358.html)
+
+12:25
+
+Javier Galvis-Chacon , Luis A. Beltran , Omar Alvarez , Diego Oliva , Itzel Aranguren , Arturo Valdivia-G , Mario A. Navarro and Seyed Jalaleddin Mousavirad
+Prompting Evolution: Leveraging LLMs for Automated Mutation Strategy Design in Differential Evolution ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306063) )
+
+PRESENTER: [Javier Galvis-Chacon](https://easychair.org/smart-program/evostar2026/person293.html)
+
+12:50
+
+Thomas Bömer , Nico Koltermann , Max Disselnmeyer , Bastian Amberg and Anne Meyer
+Algorithmic Prompt-Augmentation for Efficient LLM-Based Heuristic Design for A* Search ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306080) )
+
+PRESENTER: [Thomas Bömer](https://easychair.org/smart-program/evostar2026/person298.html)
+
+13:15
+
+Berfin Sakallioglu , Frederico J.J.B. Santos , Daniel Parra , Yuxin Qiu , Miguel Nicolau , Leonardo Trujillo and J. Ignacio Hidalgo
+Combining Grammatical Evolution with LLM-based Local Search to Improve Interpretability ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306174) )
+
+PRESENTER: [Berfin Sakallioglu](https://easychair.org/smart-program/evostar2026/person361.html)
+
+12:15-13:25 Session 4D: Evo* Late-Breaking Abstracts (ii)
+
+Chair:
+
+[Antonio Mora](https://easychair.org/smart-program/evostar2026/person217.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+12:15
+
+Sérgio Rebelo , Joana Rovira Martins , Ana Boavida , Pedro Martins , João Bicker and Penousal Machado
+Towards Responsible Computational Graphic Design ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308114) )
+
+PRESENTER: [Sérgio Rebelo](https://easychair.org/smart-program/evostar2026/person132.html)
+
+12:25
+
+Zinoo Park
+A Little Less Action, A Little More Chaos Please: Stochastically Sampling Everything ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308115) )
+
+12:35
+
+Daan van den Berg
+Valid Protein Folding Conformations in HP Might Be Fractally Distributed ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306123) )
+
+12:45
+
+Michal Bidlo and Radek Veselsky
+The Game of Life-Like Glider Evolution ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308397) )
+
+PRESENTER: [Michal Bidlo](https://easychair.org/smart-program/evostar2026/person798.html)
+
+12:55
+
+Ali Naqvi , Reuven Dukas and Stephen Kelly
+Evolving Register Count in Linear Genetic Programming ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:308852) )
+
+PRESENTER: [Ali Naqvi](https://easychair.org/smart-program/evostar2026/person580.html)
+
+13:25-14:15 Lunch
+
+14:15-16:05 Session 5A: EvoMUSART 3 - AI in Artistic Practice
+
+Chair:
+
+[Sérgio Rebelo](https://easychair.org/smart-program/evostar2026/person132.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+14:15
+
+Khoi Trinh , Scott Seidenberger , Joseph Spracklen , Raveen Wijewickrama , Bimal Viswanath , Murtuza Jadliwala and Anindya Maiti
+Prompt and Circumstances: Evaluating the Efficacy of Human Prompt Inference in AI-Generated Art ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306053) )
+
+PRESENTER: [Khoi Trinh](https://easychair.org/smart-program/evostar2026/person376.html)
+
+14:40
+
+Najam-Ul Assar and Megan Smith
+Digital Artists’ Perceptions of Generative AI in South Asia: Insights from the South Asian Digital Arts Archive (SADA) ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306061) )
+
+PRESENTER: [Najam-Ul Assar](https://easychair.org/smart-program/evostar2026/person383.html)
+
+15:05
+
+Anca Daniela Dinu , Andreiana Mihail , Andra-Maria Florescu and Claudiu Dan Creangă
+The Art That Poses Back: Assessing AI Pastiches after Contemporary Artworks ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306094) )
+
+PRESENTER: [Claudiu Dan Creangă](https://easychair.org/smart-program/evostar2026/person388.html)
+
+15:30
+
+Alain Lioret , Kamal Hennou and Florentin Eraud
+Life Beings: Living Quantum Art ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306147) )
+
+PRESENTER: [Alain Lioret](https://easychair.org/smart-program/evostar2026/person118.html)
+
+15:40
+
+Kamer Ali Yuksel and Hassan Sawaf
+EvoArtist: A Visual LLM-Driven Agentic AI Framework for Autonomous Design Evolution ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306161) )
+
+PRESENTER: [Kamer Ali Yuksel](https://easychair.org/smart-program/evostar2026/person391.html)
+
+15:50
+
+Tanguy Pocquet , Ricardo Climent and Richard Allmendinger
+Mapping artificial neural networks’ processing data in audiovisual artworks ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306151) )
+
+PRESENTER: [Tanguy Pocquet](https://easychair.org/smart-program/evostar2026/person393.html)
+
+14:15-16:05 Session 5B: EuroGP - Best Paper nominations
+
+Chair:
+
+[Sylvain Cussat-Blanc](https://easychair.org/smart-program/evostar2026/person365.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+14:15
+
+Vladimir Stanovov
+Comparison of parent and environmental selection schemes in genetic programming for symbolic regression ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306064) )
+
+14:40
+
+Mark Kocherovsky , Illya Bakurov and Wolfgang Banzhaf
+Node Preservation and its Effect on Crossover in Cartesian Genetic Programming ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306089) )
+
+PRESENTER: [Mark Kocherovsky](https://easychair.org/smart-program/evostar2026/person368.html)
+
+15:05
+
+Josip Hrvatić , Magda Smolić-Ročak , Marko Đurasević and Gabriela Ochoa
+Semantic Search Trajectory Networks for Understanding Genetic Programming ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306095) )
+
+PRESENTER: [Josip Hrvatić](https://easychair.org/smart-program/evostar2026/person370.html)
+
+15:30
+
+Fitria Wulandari Ramlan , Colm O'Riordan and James McDermott
+Extending Model Selection Criteria with Extrapolation and Sensitivity Penalties for Symbolic Regression ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306120) )
+
+PRESENTER: [Fitria Wulandari Ramlan](https://easychair.org/smart-program/evostar2026/person374.html)
+
+14:15-16:05 Session 5C: EvoApplications: Opinions and trends
+
+Chair:
+
+[Doina Bucur](https://easychair.org/smart-program/evostar2026/person156.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+14:15
+
+Denis Pallez
+Expensive Evolutionary Computation: Where are we, and what’s next? ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306070) )
+
+14:40
+
+Michael Palk , Stefan Voss and Fred Glover
+The Next Stage of Evolutionary Computation in the Era of Agentic Generative AI ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306073) )
+
+PRESENTER: [Stefan Voss](https://easychair.org/smart-program/evostar2026/person398.html)
+
+15:05
+
+Anna V. Kononova , Niki van Stein , Olaf Mersmann , Thomas Bäck , Thomas Bartz-Beielstein , Tobias Glasmachers , Michael Hellwig , Sebastian Krey , Jakub Kudela , Boris Naujoks , Leonard Papenmeier , Elena Raponi , Quentin Renau , Jeroen Rook , Lennart Schäpermeier , Diederick Vermetten and Daniela Zaharie
+Benchmarking that Matters: Rethinking Benchmarking for Practical Impact ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306106) )
+
+PRESENTER: [Anna V. Kononova](https://easychair.org/smart-program/evostar2026/person200.html)
+
+15:30
+
+Niki van Stein , Anna V. Kononova and Thomas Baeck
+From Performance to Understanding: A Vision for Explainable Automated Algorithm Design ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306107) )
+
+PRESENTER: [Anna V. Kononova](https://easychair.org/smart-program/evostar2026/person200.html)
+
+15:55
+
+Shunmuga Velayutham C , Bagavathi Chandrasekara , Dhanya M Dhanalakshmy , Jeyakumar Gurusamy , Ritwik Murali and Thangavelu S
+A Sociotechnical Perspective on the Evolutionary Computation Ecosystem ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306167) )
+
+PRESENTER: [Ritwik Murali](https://easychair.org/smart-program/evostar2026/person414.html)
+
+14:15-16:15 Session 5D: EvoApplications: Computational Intelligence for sustainability
+
+Chair:
+
+[Jamal Toutouh](https://easychair.org/smart-program/evostar2026/person255.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+14:15
+
+Stefano Genetti , Enrico Micheli , Leonardo Lucio Custode and Giovanni Iacca
+Interpretable Federated Reinforcement Learning for Large-Scale Distributed HVAC Control ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306050) )
+
+PRESENTER: [Stefano Genetti](https://easychair.org/smart-program/evostar2026/person448.html)
+
+14:40
+
+César David Loaiza Quintana , Laura Climent , Christian Pérez and Alejandro Arbelaez
+Cost-Efficient Charging Station Deployment for Electric Bus Fleets ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306078) )
+
+PRESENTER: [Alejandro Arbelaez](https://easychair.org/smart-program/evostar2026/person454.html)
+
+15:05
+
+Renzo Massobrio , Sergio Nesmachnow , Jamal Toutouh and Sergio Pérez
+Evolutionary approach for sewer network design under the condominial model ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306105) )
+
+PRESENTER: [Jamal Toutouh](https://easychair.org/smart-program/evostar2026/person255.html)
+
+15:30
+
+Marco Baioletti , Fabrizio Fagiolo and Valentino Santucci
+Optimizing Tourist Trip Design for Urban Sustainability ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306112) )
+
+PRESENTER: [Fabrizio Fagiolo](https://easychair.org/smart-program/evostar2026/person179.html)
+
+15:55
+
+Aymen Ben Said and Malek Mouhoub
+Data-driven Learning for the Nurse Scheduling Problem ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306145) )
+
+PRESENTER: [Aymen Ben Said](https://easychair.org/smart-program/evostar2026/person457.html)
+
+16:05
+
+Wissal Iarochen , Mustapha Oudani , Ammar Oulamara and Mohamed Ouzineb
+Scheduling Electric Vehicle Charging to Minimize Total Tardiness ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306157) )
+
+PRESENTER: [Mustapha Oudani](https://easychair.org/smart-program/evostar2026/person460.html)
+
+16:05-16:25 Coffee break
+
+16:25-17:55 Session 6A: EvoApplications: Scheduling and Code Optimisation
+
+Chair:
+
+[Juanlu Jiménez Laredo](https://easychair.org/smart-program/evostar2026/person198.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+16:25
+
+Tam Nguyen
+CP-MEME: A Hybrid (1+1)-Evolutionary Framework for the Oven Scheduling Problem ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306051) )
+
+16:50
+
+João Eduardo Batista , Emil Vatai , Aleksandr Drozd and Mohamed Wahib
+EvoTADASHI: Genetic Programming for High-Performance Code Optimization ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306065) )
+
+PRESENTER: [João Eduardo Batista](https://easychair.org/smart-program/evostar2026/person529.html)
+
+17:15
+
+Jayprakash S. Nair , Jimson Mathew and Shivashankar B. Nair
+A Reinforcement Learning–Inspired Latent Yield-based Adaptive Algorithm Switching Mechanism ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306132) )
+
+PRESENTER: [Jayprakash S. Nair](https://easychair.org/smart-program/evostar2026/person463.html)
+
+17:25
+
+David Sedlák , Jan Klhufek and Vojtech Mrazek
+Evolving Memory-Aware Schedules for Transformer Inference on Systolic Array Accelerators ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306169) )
+
+PRESENTER: [David Sedlák](https://easychair.org/smart-program/evostar2026/person494.html)
+
+16:25-17:55 Session 6B: EuroGP Representations and semantics
+
+Chair:
+
+[Bing Xue](https://easychair.org/smart-program/evostar2026/person438.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+16:25
+
+Giorgia Nadizar , Gloria Pietropolli and Eric Medvet
+Optimal Mixing in Graph-Based GP for Control: Genotypical Dependencies Are Hardly Captured ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306140) )
+
+PRESENTER: [Giorgia Nadizar](https://easychair.org/smart-program/evostar2026/person434.html)
+
+16:35
+
+Quentin Vacher , Nicolas Beuve , Mickaël Dardaillon and Karol Desnos
+Multi-Action Tangled Program Graphs for Multi-Task Reinforcement Learning with Continuous Control ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306153) )
+
+PRESENTER: [Quentin Vacher](https://easychair.org/smart-program/evostar2026/person439.html)
+
+16:45
+
+Yuri Lavinas , Wolfgang Banzhaf , Sylvain Cussat-Blanc and Nathaniel Haut
+Reducing Computational Overhead in Biomedical Image Segmentation via Active Learning and PCA-Based Diversity Filtering in CGP ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306154) )
+
+PRESENTER: [Yuri Lavinas](https://easychair.org/smart-program/evostar2026/person204.html)
+
+16:55
+
+Christina Berghegger , Camilo De La Torre , Sylvain Cussat-Blanc , Yuri Lavinas and David Simoncini
+Exploring CGP Fitness Landscapes with MCTS ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306162) )
+
+PRESENTER: [Christina Berghegger](https://easychair.org/smart-program/evostar2026/person444.html)
+
+17:05
+
+Sofia Pereira and Leonardo Vanneschi
+Extended Semantics Operator for Genetic Programming: A Semantic-Density Approach to Improve Model Robustness ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306172) )
+
+PRESENTER: [Sofia Pereira](https://easychair.org/smart-program/evostar2026/person447.html)
+
+17:15
+
+Jiayu Zhang , Qi Chen , Bing Xue and Mengjie Zhang
+Multi-tree Genetic Programming with Semantic Complementarity for Feature Construction in Symbolic Regression ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306149) )
+
+PRESENTER: [Qi Chen](https://easychair.org/smart-program/evostar2026/person437.html)
+
+16:25-17:55 Session 6C: EvoApplications: Particle Swarm Optimisation and Multi-Agent Systems
+
+Chair:
+
+[Evelyne Lutton](https://easychair.org/smart-program/evostar2026/person211.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+16:25
+
+Daniele Maria Papetti , Marco S. Nobile , Matteo Grazioso , Paolo Cazzaniga , Leonardo Vanneschi and Daniela Besozzi
+HyCAPS: A Settings-Free Optimization Heuristics Integrating Evolutionary Computation and Swarm Intelligence ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306047) )
+
+PRESENTER: [Daniele Maria Papetti](https://easychair.org/smart-program/evostar2026/person226.html)
+
+16:50
+
+So Fukuhara and Masao Arakawa
+Novel Particle Swarm Optimization for High-Dimensional Problems ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306116) )
+
+PRESENTER: [So Fukuhara](https://easychair.org/smart-program/evostar2026/person417.html)
+
+17:15
+
+Shanshan Mao and Peter Tino
+From Cooperation to Hierarchy: A Study of Dynamics of Hierarchy Emergence in a Multi-Agent System ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306148) )
+
+PRESENTER: [Shanshan Mao](https://easychair.org/smart-program/evostar2026/person424.html)
+
+17:25
+
+Andrés Bueno-Crespo , Ana Ortiz-González , José Martínez-Más and Carlos Cotta
+Hybrid Modeling for Predicting the Evolution of Premalignant Cervical Squamous Lesions via Intelligent Agents and Deep Neural Networks ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306165) )
+
+PRESENTER: [Andrés Bueno-Crespo](https://easychair.org/smart-program/evostar2026/person426.html)
+
+17:35
+
+Giorgio Mongardi , Giovanni Squillero , Alberto Tonda , Evelyne Lutton , Raffaele Correale and Raffaella Todino
+Deconvolution of Mass Spectra through Particle Swarm Optimization: An Industrial Experience ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306146) )
+
+PRESENTER: [Giorgio Mongardi](https://easychair.org/smart-program/evostar2026/person419.html)
+
+17:45
+
+Emiliano Rossi , Erik Nielsen and Giovanni Iacca
+Evolutionary Emergence of Distributed Neural Network Controllers in Voxel-Based Soft Robots ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306139) )
+
+PRESENTER: [Erik Nielsen](https://easychair.org/smart-program/evostar2026/person289.html)
+
+16:25-17:55 Session 6D: EvoApplications: New trends
+
+Chair:
+
+[Francisco Fernandez De Vega](https://easychair.org/smart-program/evostar2026/person181.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+16:25
+
+Taran Cyriac John , Giovanni Iacca , Qurrat Ul Ain , Harith Al-Sahaf and Mengjie Zhang
+Evolving Ternary Patterns and Discriminative Localisation for Basal Cell Carcinoma Detection ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306141) )
+
+PRESENTER: [Taran Cyriac John](https://easychair.org/smart-program/evostar2026/person468.html)
+
+16:35
+
+Ahmad Tashfeen and Qi Cheng
+Domain-Informed Representation for Evolutionary Sieving in Integral and Module Lattices ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306136) )
+
+PRESENTER: [Ahmad Tashfeen](https://easychair.org/smart-program/evostar2026/person466.html)
+
+16:45
+
+Xeniya Bashkova and Alexander Hvatov
+On the impact of conditional distribution in discovered differential equation ensembles ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306143) )
+
+PRESENTER: [Xeniya Bashkova](https://easychair.org/smart-program/evostar2026/person471.html)
+
+16:55
+
+Claude Carlet , Marko Đurasević , Domagoj Jakobovic , Luca Mariot , Stjepan Picek and Alexandr Polujan
+On Counts and Densities of Homogeneous Bent Functions: An Evolutionary Approach ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306152) )
+
+PRESENTER: [Luca Mariot](https://easychair.org/smart-program/evostar2026/person475.html)
+
+17:05
+
+Joao Martin-Saquet , Adrien Dorise , Edouard Villain , Vinicius Beltram Tegolina , Stéphane Sanchez and David Panzoli
+Assessing Evolving and Learning-Based Controllers for Efficient Cursor Control in Human–Computer Interaction ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306155) )
+
+PRESENTER: [Joao Martin-Saquet](https://easychair.org/smart-program/evostar2026/person478.html)
+
+17:15
+
+Bernt Moritz Schmid Olsen and Kazi Shah Nawaz Ripon
+A Quantum-Inspired Genetic Algorithm for Multi-Objective Job-Shop Scheduling ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306159) )
+
+PRESENTER: [Kazi Shah Nawaz Ripon](https://easychair.org/smart-program/evostar2026/person485.html)
+
+17:25
+
+Laura-Maria Cornei and Mihaela-Elena Breabăn
+Enhancing Genetic Algorithms with Graph Neural Networks: A Timetabling Case Study ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306164) )
+
+PRESENTER: [Laura-Maria Cornei](https://easychair.org/smart-program/evostar2026/person486.html)
+
+17:35
+
+Côme Frappé-Vialatoux and Pierre Parrend
+Hybrid Evolutionary-ML Surrogate Models for Cyber-Attack Detection in Water Distribution Networks ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306166) )
+
+PRESENTER: [Côme Frappé-Vialatoux](https://easychair.org/smart-program/evostar2026/person488.html)
+
+17:45
+
+Pedro Ferreira , Carlos Henggeler Antunes , Jorge Batista and Telmo Pinto
+Optimizing Transformers: Metaheuristics for Head Attention Pruning ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-08.html#talk:306168) )
+
+PRESENTER: [Pedro Ferreira](https://easychair.org/smart-program/evostar2026/person490.html)
+
+17:55-18:00 Break
+
+18:00-20:00 Session 7: Poster session and conference welcome reception
+
+Thursday, April 9th
+
+View this program: [with abstracts](https://easychair.org/smart-program/evostar2026/2026-04-09.html) [session overview](https://easychair.org/smart-program/evostar2026/bysession-2026-04-09.html) [talk overview](https://easychair.org/smart-program/evostar2026/bytalk-2026-04-09.html)
+
+09:00-10:40 Session 8A: EvoCOP 1: Best Paper nominations
+
+Chairs:
+
+[Martin S. Krejca](https://easychair.org/smart-program/evostar2026/person35.html) and [Nelishia Pillay](https://easychair.org/smart-program/evostar2026/person54.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+09:00
+
+Sina Akbari , Abeer Abdelhadi and Adolfo Escobedo
+Heuristic Methods for Top-k List Aggregation under the Generalized Kendall Tau Distance ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306101) )
+
+PRESENTER: [Abeer Abdelhadi](https://easychair.org/smart-program/evostar2026/person498.html)
+
+09:25
+
+Daniel Hambly , Rhydian Lewis and Padraig Corcoran
+Methods for Finding Paths of a Prescribed Length in Weighted Graphs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306058) )
+
+PRESENTER: [Daniel Hambly](https://easychair.org/smart-program/evostar2026/person500.html)
+
+09:50
+
+Francesco Cecere , Bilel Derbel , Darrell Whitley and Surendra Kurivella
+Gray-Box Enhanced Decomposition-based Local Search for Multi-Objective NK-Landscapes ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306114) )
+
+PRESENTER: [Francesco Cecere](https://easychair.org/smart-program/evostar2026/person502.html)
+
+10:15
+
+Yutaro Yamada , Kento Uchida and Shinichi Shirakawa
+Weight Adaptation for Improving Parallel Performance of Adaptive Stochastic Natural Gradient ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306118) )
+
+PRESENTER: [Yutaro Yamada](https://easychair.org/smart-program/evostar2026/person505.html)
+
+09:00-10:40 Session 8B: EuroGP 3: GP Encodings
+
+Chair:
+
+[Qi Chen](https://easychair.org/smart-program/evostar2026/person437.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+09:00
+
+Mark Kocherovsky , Henning Cui , Illya Bakurov , Michael Heider , Roman Kalkreuth and Wolfgang Banzhaf
+New Perspectives on Cartesian Genetic Programming: A Survey ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306090) )
+
+PRESENTER: [Mark Kocherovsky](https://easychair.org/smart-program/evostar2026/person368.html)
+
+09:25
+
+Gorka Silva , Lachlan Stewart , Illya Bakurov , Mauro Castelli , Davide Farinati , Jose Manuel Muñoz Contreras , Leonardo Trujillo and Leonardo Vanneschi
+Revisiting SLIM: Improved Learning Dynamics and Model Compactness in Symbolic Regression ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306108) )
+
+PRESENTER: [Gorka Silva](https://easychair.org/smart-program/evostar2026/person511.html)
+
+09:50
+
+Philipp Anthes
+Syntactic Flexibility Enables Compact Solutions in Transformer Semantic GP ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306068) )
+
+10:15
+
+Ali Naqvi and Stephen Kelly
+Dynamic Vector and Matrix Memory for Tangled Program Graphs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306117) )
+
+PRESENTER: [Ali Naqvi](https://easychair.org/smart-program/evostar2026/person580.html)
+
+09:00-10:40 Session 8C: EvoApplications: Problem modeling
+
+Chair:
+
+[Elena Raponi](https://easychair.org/smart-program/evostar2026/person234.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+09:00
+
+Guilherme Nakahata , Florian Richoux , Daan van den Berg and Claus Aranha
+A Constructive Method to Build Many Valid Initial Solutions for the Traveling Tournament Problem ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306075) )
+
+PRESENTER: [Florian Richoux](https://easychair.org/smart-program/evostar2026/person520.html)
+
+09:25
+
+Jiajie Liu and Alberto Moraglio
+Structure-Aware Penalty Weights Scaling for Quadratic Unconstrained Binary Optimization Formulation ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306077) )
+
+PRESENTER: [Jiajie Liu](https://easychair.org/smart-program/evostar2026/person522.html)
+
+09:50
+
+Jelle Westra , Ivan Olarte Rodriguez , Niki van Stein , Thomas Bäck and Elena Raponi
+Investigating the Interplay of Parameterization and Optimizer in Gradient-Free Topology Optimization: A Cantilever Beam Case Study ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306091) )
+
+PRESENTER: [Jelle Westra](https://easychair.org/smart-program/evostar2026/person524.html)
+
+10:15
+
+Nikhil Yn and Abhay Bhandarkar
+Helios: A Co-Designed Landscape-Aware Optimization System Bridging Serial intelligence and GPU Parallelism ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306092) )
+
+PRESENTER: [Abhay Bhandarkar](https://easychair.org/smart-program/evostar2026/person527.html)
+
+09:00-10:40 Session 8D: EvoApplications: Misc applications (ii)
+
+Chair:
+
+[Mengjie Zhang](https://easychair.org/smart-program/evostar2026/person269.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+09:00
+
+Soumen Atta and Michael Emmerich
+Feasibility-Preserving Multi-Objective Evolutionary Algorithms with Local Search for the Bi-Objective Maximal Covering Location Problem with Compactness ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306074) )
+
+PRESENTER: [Soumen Atta](https://easychair.org/smart-program/evostar2026/person533.html)
+
+09:25
+
+Jed Muff , Keiichi Ito , Karine Miras , Elijah Ang and Agosten Eiben
+Unconventional Hexacopters via Evolution and Learning: Performance Gains and New Insights ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306083) )
+
+PRESENTER: [Jed Muff](https://easychair.org/smart-program/evostar2026/person542.html)
+
+09:50
+
+Lukáš Plevač and Zdeněk Vašíček
+Evolutionary Design of Specialized Image Compression Operators ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306097) )
+
+PRESENTER: [Lukáš Plevač](https://easychair.org/smart-program/evostar2026/person546.html)
+
+10:40-11:00 Coffee break
+
+11:00-12:15 Session 9A: EvoMusArt Creative AI for Sound, Embodiment, & Media (incl. Best Paper Noms.)
+
+Chairs:
+
+[Penousal Machado](https://easychair.org/smart-program/evostar2026/person122.html) and [Juan Romero](https://easychair.org/smart-program/evostar2026/person134.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+11:00
+
+Nana Amowee Dawson
+Asɛmpayɛtsia: An Afrocentric Framework for Computational Creativity in Sound and Image ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306056) )
+
+11:25
+
+Yuting Xue and Yueshen Wu
+Fluid Body: An Adaptive Embodied Sonification System for Cross-Cultural Performance ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306088) )
+
+PRESENTER: [Yueshen Wu](https://easychair.org/smart-program/evostar2026/person430.html)
+
+11:50
+
+Timo Hromadka , Kevin Monteiro and Sam Nallaperuma-Herzberg
+A Novel Diffusion Model based Approach for Sleep Music Generation ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306060) )
+
+PRESENTER: [Kevin Monteiro](https://easychair.org/smart-program/evostar2026/person432.html)
+
+11:00-12:15 Session 9B: EvoApplications: Real World Systems
+
+Chair:
+
+[Carlos Cotta](https://easychair.org/smart-program/evostar2026/person11.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+11:00
+
+Shanxian Lin , Yuichi Nagata , Haichuan Yang and Wei Xia
+Multi-Constrained Evolutionary Molecular Design Framework: An Interpretable Drug Design Method Combining Rule-Based Evolution and Molecular Crossover ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306054) )
+
+PRESENTER: [Shanxian Lin](https://easychair.org/smart-program/evostar2026/person535.html)
+
+11:25
+
+Pinar Karadayi Atas and Amar Halilovic
+Novel Explainable Graph–Decision Forest Framework for Interpretable Pancreatic Tumor Detection on CT Images ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306081) )
+
+PRESENTER: [Pinar Karadayi Atas](https://easychair.org/smart-program/evostar2026/person539.html)
+
+11:50
+
+Saining Liu , Yi Mei and Mengjie Zhang
+Adaptive Curriculum Learning in Genetic Programming–Guided Local Search for Large-Scale Vehicle Routing Problems ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306103) )
+
+PRESENTER: [Saining Liu](https://easychair.org/smart-program/evostar2026/person541.html)
+
+11:00-12:15 Session 9C: EML 3 - Neuroevolution and AutoML
+
+Chair:
+
+[João Correia](https://easychair.org/smart-program/evostar2026/person94.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+11:00
+
+Renan Beran Kilic , Kasim Sinan Yildirim and Giovanni Iacca
+Multi-Objective Evolutionary Optimization of Imbalanced Fast Feedforward Networks ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306057) )
+
+PRESENTER: [Renan Beran Kilic](https://easychair.org/smart-program/evostar2026/person291.html)
+
+11:25
+
+Camilo De La Torre , Stéphane Treillard , Camille Franchet , Herve Luga , Dennis Wilson and Sylvain Cussat-Blanc
+A Comparative Study on Robustness in Evolved Image Classifiers ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306067) )
+
+PRESENTER: [Camilo De La Torre](https://easychair.org/smart-program/evostar2026/person575.html)
+
+11:50
+
+Joana Simões and João Correia
+Exploring the impact of fairness-aware criteria in AutoML ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306084) )
+
+PRESENTER: [Joana Simões](https://easychair.org/smart-program/evostar2026/person550.html)
+
+11:00-12:15 Session 9D: EvoApplications: Cloud, edge and fog computing
+
+Chair:
+
+[Josefa Díaz-Álvarez](https://easychair.org/smart-program/evostar2026/person175.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+11:00
+
+Juan Luis Jiménez Laredo , Juan Julián Merelo Guervós , Paulin Héleine and Damien Olivier
+Self-Organized Criticality for Green Distributed Computing: A Sandpile-Inspired Model of Energy-Efficient Load Balancing ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306086) )
+
+PRESENTER: [Juan Luis Jiménez Laredo](https://easychair.org/smart-program/evostar2026/person198.html)
+
+11:25
+
+Shruti Lall and Nelishia Pillay
+Genetic Programming for Energy-Efficient Device–Edge Collaborative Inference ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306087) )
+
+PRESENTER: [Shruti Lall](https://easychair.org/smart-program/evostar2026/person554.html)
+
+11:50
+
+Elia Pacioni , Célien Muller , Francisco Fernández De Vega and Davide Calvaresi
+FedGP Resilience: A Comparative Study with Standard Federated Aggregation Methods under Adversarial Scenarios ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306110) )
+
+PRESENTER: [Elia Pacioni](https://easychair.org/smart-program/evostar2026/person555.html)
+
+12:20-13:20 Session 10: Julian Francis Miller Award invited talk: Jean-Baptiste Mouret (Room: A)
+
+Chair:
+
+[Una-May O'Reilly](https://easychair.org/smart-program/evostar2026/person223.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+13:20-14:20 Lunch
+
+14:20-16:00 Session 11: Student workshop
+
+Chair:
+
+[Alina Geiger](https://easychair.org/smart-program/evostar2026/person654.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+16:00-16:20 Coffee break
+
+16:20-18:00 Session 12A: EvoApplications Best Paper nominations
+
+Chair:
+
+[Pablo García-Sánchez](https://easychair.org/smart-program/evostar2026/person186.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+16:20
+
+Emanuele Nardone , Claudio De Stefano , Alessandra Scotto di Freca , Francesco Fontanella and Tiziana D'Alessandro
+Toward Reliable Uncertainty Quantification in Surrogate-Assisted Evolutionary Algorithms via Temporal Conformal Prediction ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306066) )
+
+PRESENTER: [Emanuele Nardone](https://easychair.org/smart-program/evostar2026/person558.html)
+
+16:45
+
+Karel Fritz and Michal Bidlo
+On Effcient Binarization of Scanned Historical Documents by Training Local Rules of Neural Cellular Automata ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306072) )
+
+PRESENTER: [Karel Fritz](https://easychair.org/smart-program/evostar2026/person562.html)
+
+17:10
+
+Madalina-Andreea Mitran and Mihai-Lucian Ene
+Reinforcement Learning-Based Adaptive Boundary Constraint Handling for Particle Swarm Optimization ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306121) )
+
+PRESENTER: [Mihai-Lucian Ene](https://easychair.org/smart-program/evostar2026/person565.html)
+
+16:20-18:00 Session 12B: EvoMusArt 5 - AI for Music
+
+Chairs:
+
+[Juan Romero](https://easychair.org/smart-program/evostar2026/person134.html) and [Penousal Machado](https://easychair.org/smart-program/evostar2026/person122.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+16:20
+
+Kamer Ali Yuksel and Hassan Sawaf
+EvoLiveDJ: An LLM-Based Agentic System for Interactive Evolutionary Live Music Performance ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306071) )
+
+PRESENTER: [Kamer Ali Yuksel](https://easychair.org/smart-program/evostar2026/person391.html)
+
+16:45
+
+Anthony Grégoire , Serge Lacasse and Joanie Verviers-Deblois
+Artificial Intelligence in Music: Towards an Aesthetics of Co-Creation ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306113) )
+
+PRESENTER: [Serge Lacasse](https://easychair.org/smart-program/evostar2026/person568.html)
+
+17:10
+
+Janita Aamir and Patrick Donnelly
+Addressing Dataset Scarcity in Music Emotion Recognition with LLMs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306115) )
+
+PRESENTER: [Patrick Donnelly](https://easychair.org/smart-program/evostar2026/person99.html)
+
+17:35
+
+Eyal Briman , Nimrod Talmon and Eyal Leizerovich
+Algorithms for Collaborative Harmonization ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306059) )
+
+PRESENTER: [Eyal Briman](https://easychair.org/smart-program/evostar2026/person571.html)
+
+16:20-18:00 Session 12C: EuroGP 4: GP Evolution
+
+Chair:
+
+[Erik Hemberg](https://easychair.org/smart-program/evostar2026/person108.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+16:20
+
+Martin Briesch
+On the Effects of Down-Sampling for Tournament and Lexicase Selection in Program Synthesis ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306049) )
+
+16:45
+
+Lucas Miranda , Emilio Francesquini , Fabricio de Franca and Matheus Fernandes
+Sinking the Bloat in Genetic Programming Using Equality Saturation ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306100) )
+
+PRESENTER: [Fabricio de Franca](https://easychair.org/smart-program/evostar2026/person517.html)
+
+17:10
+
+Joy Bhattacharaya , Erik Hemberg and Unamay O'Reilly
+A Hybrid LLM-Coevolution Framework to Generate Abusive Tax Strategies ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306099) )
+
+PRESENTER: [Unamay O'Reilly](https://easychair.org/smart-program/evostar2026/person223.html)
+
+16:20-18:00 Session 12D: EvoCOP 3: Learning-enhanced approaches
+
+Chair:
+
+[Nelishia Pillay](https://easychair.org/smart-program/evostar2026/person54.html)
+
+Location: [Room D](https://easychair.org/smart-program/evostar2026/room788.html)
+
+16:20
+
+Sirine Jmal , Boukthir Haddar and Habib Chabchoub
+Synergistic Adaptive Tabu Search: Multi-Agent Learning with Shared Solution Patterns for the K-Traveling Repairman Problem ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306048) )
+
+PRESENTER: [Sirine Jmal](https://easychair.org/smart-program/evostar2026/person583.html)
+
+16:45
+
+Mohamed-Amine Ouberkouk and Ammar Oulamara
+On vehicle routing problems with loading constraints ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306096) )
+
+PRESENTER: [Mohamed-Amine Ouberkouk](https://easychair.org/smart-program/evostar2026/person585.html)
+
+17:10
+
+Martin Wustinger , Enrico Iurlano and Günther Raidl
+A Denoising Diffusion Adaptive Search for the Alpha-Domination Problem on Social Graphs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-09.html#talk:306111) )
+
+PRESENTER: [Martin Wustinger](https://easychair.org/smart-program/evostar2026/person586.html)
+
+18:00-18:30 Go to pick up point
+
+The bus pick up point is 21 Bd Armand Duportal, 31000 Toulouse (the exact number might vary)
+
+https://maps.app.goo.gl/5uc2sDum4aThU6ah9
+
+18:30-19:15 Transport to Rochemontès
+
+19:15-21:30 Conference dinner
+
+Friday, April 10th
+
+View this program: [with abstracts](https://easychair.org/smart-program/evostar2026/2026-04-10.html) [session overview](https://easychair.org/smart-program/evostar2026/bysession-2026-04-10.html) [talk overview](https://easychair.org/smart-program/evostar2026/bytalk-2026-04-10.html)
+
+09:45-11:00 Session 13A: EvoMusArt 6 - AI for Sound and Image
+
+Chair:
+
+[Penousal Machado](https://easychair.org/smart-program/evostar2026/person122.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+09:45
+
+Reem Hinrichs , Sonja Stephan , Alexander Lange and Jörn Ostermann
+A Dataset for Automatic Vocal Mode Classification ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306069) )
+
+PRESENTER: [Reem Hinrichs](https://easychair.org/smart-program/evostar2026/person588.html)
+
+10:10
+
+Adrián García Riber
+Generative musical exploration of astronomical catalogs ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306104) )
+
+10:35
+
+Kamer Ali Yuksel and Hassan Sawaf
+AI Co-Artist: An LLM-Powered System for Interactive GLSL Shader Animation Evolution ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306076) )
+
+PRESENTER: [Kamer Ali Yuksel](https://easychair.org/smart-program/evostar2026/person391.html)
+
+09:45-11:00 Session 13B: EvoCOP: Traditional Approaches
+
+Chair:
+
+[Martin S. Krejca](https://easychair.org/smart-program/evostar2026/person35.html)
+
+Location: [Room B](https://easychair.org/smart-program/evostar2026/room786.html)
+
+09:45
+
+Sumit Adak and Carsten Witt
+A Self-Adjusting Compact Genetic Algorithm ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306082) )
+
+PRESENTER: [Sumit Adak](https://easychair.org/smart-program/evostar2026/person593.html)
+
+10:10
+
+Surendra Kurivella , Darrell Whitley , Gabriela Ochoa , Francesco Cecere , Bilel Derbel and Francisco Chicano
+Gray-box Bi-Objective Boolean Optimization using Deterministic Recombination with Iterated Local Search ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306098) )
+
+10:35
+
+Sarah Degaugue , Olivier Gérard , Justin Scouarnec , Corinne Lucet , Sara Tari and Laure Brisoux Devendeville
+Generation of Instances with Estimated Landscape Features for the Two Level p-Median Location Problem ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306109) )
+
+PRESENTER: [Sarah Degaugue](https://easychair.org/smart-program/evostar2026/person594.html)
+
+09:45-11:00 Session 13C: EvoApplications: Games
+
+Chair:
+
+[Alberto Tonda](https://easychair.org/smart-program/evostar2026/person254.html)
+
+Location: [Room C](https://easychair.org/smart-program/evostar2026/room787.html)
+
+09:45
+
+Deacon Seals and Daniel Tauritz
+Tripping Over The Past: Measuring Deceptive Progress in Competitive Coevolutionary Algorithms Employing Hall of Fame ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306062) )
+
+PRESENTER: [Deacon Seals](https://easychair.org/smart-program/evostar2026/person599.html)
+
+10:10
+
+Francisco David Castejón-Soto , Jj Merelo and Pablo García-Sánchez
+A Comparison of Coevolution, Fixed, and Hybrid Training for Evolving Agents that play \textit{Tales of Tribute} videogame ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306085) )
+
+PRESENTER: [Pablo García-Sánchez](https://easychair.org/smart-program/evostar2026/person186.html)
+
+10:35
+
+Robert Smith and Malcolm Heywood
+Quantifying Dota 2 Invoker Agent Spell Casting Behaviours ( [abstract](https://easychair.org/smart-program/evostar2026/2026-04-10.html#talk:306093) )
+
+PRESENTER: [Robert Smith](https://easychair.org/smart-program/evostar2026/person602.html)
+
+11:00-11:30 Coffee break
+
+11:30-12:30 Session 14: Plenary invited talk: Guy Theraulaz (Room A)
+
+Chair:
+
+[Dennis Wilson](https://easychair.org/smart-program/evostar2026/person579.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+12:30-13:30 Session 15: Conference closing (Room A)
+
+Chairs:
+
+[Anna I Esparcia Alcazar](https://easychair.org/smart-program/evostar2026/person789.html) and [Penousal Machado](https://easychair.org/smart-program/evostar2026/person122.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+13:30-14:15 Lunch
+
+14:15-15:15 Session 16: SPECIES AGM
+
+Chair:
+
+[Penousal Machado](https://easychair.org/smart-program/evostar2026/person122.html)
+
+Location: [Room A](https://easychair.org/smart-program/evostar2026/room785.html)
+
+15:15-18:00 Optional: afternoon social trip
+
+[Disclaimer](https://easychair.org/smart-program/evostar2026/disclaimer.html) | [Powered by EasyChair Smart Program](https://easychair.org/smart_program)

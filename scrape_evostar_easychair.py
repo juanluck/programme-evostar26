@@ -542,24 +542,29 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
     .hero-brand {
       display: grid;
-      gap: 14px;
-      justify-items: stretch;
+      align-content: start;
+      justify-items: center;
     }
 
     .logo-card {
-      border-radius: 24px;
+      width: min(180px, 52vw);
+      aspect-ratio: 1 / 1;
+      border-radius: 32px;
+      display: grid;
+      place-items: center;
       background:
-        radial-gradient(circle at top left, rgba(255,170,50,.12), transparent 34%),
-        linear-gradient(145deg, #0d1624, #18263a);
-      border: 1px solid rgba(255,255,255,.08);
-      padding: 18px 20px;
-      box-shadow: 0 18px 45px rgba(8, 18, 35, .25);
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,.92), rgba(255,255,255,.7) 52%, rgba(255,255,255,.52) 100%);
+      border: 1px solid rgba(18, 32, 51, .08);
+      box-shadow: 0 18px 45px rgba(8, 18, 35, .12);
+      padding: 20px;
     }
 
     .hero-logo {
       display: block;
       width: 100%;
+      max-width: 128px;
       height: auto;
+      filter: drop-shadow(0 8px 18px rgba(15, 31, 53, .14));
     }
 
     .stats {
@@ -860,7 +865,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         </div>
         <div class="hero-brand">
           <div class="logo-card">
-            <img class="hero-logo" src="assets/evo_logo.png" alt="EvoStar logo" />
+            <img class="hero-logo" src="assets/evo_star_icon.png" alt="EvoStar star logo" />
           </div>
         </div>
       </div>
@@ -1141,6 +1146,21 @@ def build_site(program: dict[str, Any], snapshot_text: str, output_dir: Path, lo
                 shutil.copy2(logo_source, destination_logo)
         except FileNotFoundError:
             shutil.copy2(logo_source, destination_logo)
+
+        star_icon_source = logo_source.with_name("evo_star_icon.png")
+        destination_star_icon = assets_dir / "evo_star_icon.png"
+        if star_icon_source.exists():
+            try:
+                if star_icon_source.resolve() != destination_star_icon.resolve():
+                    shutil.copy2(star_icon_source, destination_star_icon)
+            except FileNotFoundError:
+                shutil.copy2(star_icon_source, destination_star_icon)
+        else:
+            try:
+                if logo_source.resolve() != destination_star_icon.resolve():
+                    shutil.copy2(logo_source, destination_star_icon)
+            except FileNotFoundError:
+                shutil.copy2(logo_source, destination_star_icon)
 
 
 def render_html_from_program_file(program_path: Path) -> str:
