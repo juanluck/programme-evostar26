@@ -28,62 +28,88 @@ import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 DEFAULT_URL = "https://easychair.org/smart-program/evostar2026/index.html"
-USER_AGENT = "Mozilla/5.0 (compatible; EvoStar26ProgrammeBot/1.0; +https://www.evostar.org/)"
+USER_AGENT = "Mozilla/5.0 (compatible; EvoStar26ProgrammeBot/2.0; +https://www.evostar.org/)"
+
+DAY_LINE_RE = re.compile(
+    r"^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), [A-Za-z]+ \d{1,2}(?:st|nd|rd|th)$"
+)
+SESSION_LINE_RE = re.compile(r"^(?P<start>\d{2}:\d{2})-(?P<end>\d{2}:\d{2}) (?P<title>.+)$")
+TALK_TIME_RE = re.compile(r"^\d{2}:\d{2}$")
+PERSON_LINK_RE = re.compile(r"\[([^\]]+)\]\((https://easychair\.org/smart-program/[^)]+/person\d+\.html)\)")
+ROOM_LINK_RE = re.compile(r"Location:\s*\[([^\]]+)\]\((https://easychair\.org/smart-program/[^)]+/room\d+\.html)\)")
+ABSTRACT_RE = re.compile(r"\(\[abstract\]\((https://easychair\.org/smart-program/[^)]+/\d{4}-\d{2}-\d{2}\.html#talk:\d+)\)\)")
+
+
+BLOCKISH_TAGS = {
+    "html", "body", "main", "section", "article", "aside", "header", "footer", "nav",
+    "div", "p", "table", "thead", "tbody", "tfoot", "tr", "td", "th", "ul", "ol",
+    "li", "dl", "dt", "dd", "h1", "h2", "h3", "h4", "h5", "h6", "br"
+}
 
 
 def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def markdown_links_to_text(text: str) -> str:
+    return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+
+
 def fetch_html(url: str) -> str:
-    response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=45)
+    response = requests.get(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "no-cache",
+        },
+        timeout=45,
+    )
     response.raise_for_status()
     return response.text
 
 
-def flatten_html_to_markdownish(html: str, base_url: str) -> str:
+def flatten_html_to_structured_text(html: str, base_url: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     for bad in soup(["script", "style", "noscript"]):
         bad.decompose()
 
-    blockish = {
-        "html", "body", "main", "section", "article", "aside", "header", "footer", "nav",
-        "div", "p", "table", "thead", "tbody", "tfoot", "tr", "td", "th", "ul", "ol",
-        "li", "dl", "dt", "dd", "h1", "h2", "h3", "h4", "h5", "h6", "br"
-    }
+    parts: list[str] = []
 
-    def walk(node: Any) -> str:
+    def walk(node: Any) -> None:
         if isinstance(node, NavigableString):
-            return normalize_space(str(node))
+            text = normalize_space(str(node))
+            if text:
+                parts.append(text)
+            return
         if not isinstance(node, Tag):
-            return ""
+            return
+        if node.name in BLOCKISH_TAGS:
+            parts.append("\n")
         if node.name == "a":
             label = normalize_space(node.get_text(" ", strip=True))
             href = node.get("href", "").strip()
-            if not label:
-                return ""
-            return f"[{label}]({urljoin(base_url, href)})" if href else label
-
-        parts: list[str] = []
-        if node.name in blockish:
-            parts.append(" ")
-        for child in node.children:
-            chunk = walk(child)
-            if chunk:
-                parts.append(chunk)
-        if node.name in blockish:
-            parts.append(" ")
-        return " ".join(parts)
+            if label:
+                parts.append(f"[{label}]({urljoin(base_url, href)})" if href else label)
+        else:
+            for child in node.children:
+                walk(child)
+        if node.name in BLOCKISH_TAGS:
+            parts.append("\n")
 
     root = soup.body or soup
-    return normalize_space(walk(root))
+    walk(root)
+    text = " ".join(parts)
+    text = re.sub(r"[ 	]*\n[ 	]*", "\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
 
-def extract_markdownish_from_snapshot(snapshot_text: str) -> str:
-    marker = "Markdown Content:"
-    if marker in snapshot_text:
-        return normalize_space(snapshot_text.split(marker, 1)[1])
-    return normalize_space(snapshot_text)
+def extract_structured_from_snapshot(snapshot_text: str) -> str:
+    for marker in ("Structured Content:", "Markdown Content:"):
+        if marker in snapshot_text:
+            return snapshot_text.split(marker, 1)[1].strip()
+    return snapshot_text.strip()
 
 
 def theme_from_name(name: str) -> str:
@@ -108,32 +134,66 @@ def theme_from_name(name: str) -> str:
     return "Other"
 
 
-PERSON_LINK_RE = re.compile(r"\[([^\]]+)\]\(https://easychair\.org/smart-program/[^)]+/person\d+\.html\)")
-ROOM_LINK_RE = re.compile(
-    r"Location:\s*\[([^\]]+)\]\((https://easychair\.org/smart-program/[^)]+/room\d+\.html)\)"
-)
-ABSTRACT_RE = re.compile(
-    r"\(\[abstract\]\((https://easychair\.org/smart-program/[^)]+/\d{4}-\d{2}-\d{2}\.html#talk:\d+)\)\)"
-)
-DAY_HEADING_RE = re.compile(
-    r"((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), "
-    r"[A-Za-z]+ \d{1,2}(?:st|nd|rd|th)) View this program:"
-)
-SESSION_HEADER_RE = re.compile(
-    r"\[(\d{2}:\d{2}-\d{2}:\d{2} [^\]]+?)\]"
-    r"\((https://easychair\.org/smart-program/[^)]+)\)"
-)
-TALK_START_RE = re.compile(r"(?<![\d-])(\d{2}:\d{2})\s*(?=(?:\[\]\([^)]*\)\s*){0,2}\[)")
+def parse_person_names(text: str) -> list[str]:
+    names = [m.group(1) for m in PERSON_LINK_RE.finditer(text)]
+    if names:
+        return names
+    plain = markdown_links_to_text(text)
+    if not plain:
+        return []
+    return [chunk.strip() for chunk in re.split(r",| and ", plain) if chunk.strip()]
 
 
-def markdown_links_to_text(text: str) -> str:
-    return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+def parse_room(line: str) -> tuple[str | None, str | None]:
+    match = ROOM_LINK_RE.search(line)
+    if match:
+        return match.group(1), match.group(2)
+    plain = re.match(r"Location:\s*(.+)$", markdown_links_to_text(line))
+    if plain:
+        return plain.group(1).strip(), None
+    return None, None
 
 
-def parse_program(markdownish: str, source_url: str) -> dict[str, Any]:
-    text = normalize_space(markdownish)
-    day_matches = list(DAY_HEADING_RE.finditer(text))
-    if not day_matches:
+def parse_talk_block(lines: list[str], session: dict[str, Any], day_label: str) -> dict[str, Any] | None:
+    if not lines:
+        return None
+    talk_start = lines[0]
+    joined = normalize_space(" ".join(lines[1:]))
+    abstract_match = ABSTRACT_RE.search(joined)
+    if not abstract_match:
+        return None
+
+    before_abstract = normalize_space(joined[:abstract_match.start()])
+    after_abstract = normalize_space(joined[abstract_match.end():])
+    author_matches = list(PERSON_LINK_RE.finditer(before_abstract))
+    authors = [match.group(1) for match in author_matches]
+    title_source = before_abstract[author_matches[-1].end():] if author_matches else before_abstract
+    title = normalize_space(markdown_links_to_text(title_source))
+    title = re.sub(r"^(?:,|and)\s*", "", title)
+    presenter_match = re.search(r"PRESENTER:\s*\[([^\]]+)\]\(", after_abstract)
+    presenter = presenter_match.group(1) if presenter_match else None
+
+    return {
+        "day": day_label,
+        "start": talk_start,
+        "end": session["end"],
+        "title": title,
+        "authors": authors,
+        "presenter": presenter,
+        "abstract_url": abstract_match.group(1),
+        "room": session["room"],
+        "session_code": session["session_code"],
+        "session_name": session["session_name"],
+        "session_title": session["title"],
+        "theme": session["theme"],
+    }
+
+
+def parse_program(structured_text: str, source_url: str) -> dict[str, Any]:
+    raw_lines = [normalize_space(line) for line in structured_text.splitlines()]
+    lines = [line for line in raw_lines if line]
+    day_indices = [i for i, line in enumerate(lines) if DAY_LINE_RE.match(line)]
+    if not day_indices:
         raise ValueError("Could not detect programme days. EasyChair may have changed its format.")
 
     program: dict[str, Any] = {
@@ -143,113 +203,89 @@ def parse_program(markdownish: str, source_url: str) -> dict[str, Any]:
         "days": [],
     }
 
-    for day_index, day_match in enumerate(day_matches):
-        day_label = day_match.group(1)
-        day_start = day_match.start()
-        day_end = day_matches[day_index + 1].start() if day_index + 1 < len(day_matches) else text.find("[Disclaimer]")
-        if day_end == -1:
-            day_end = len(text)
-        day_blob = text[day_start:day_end]
-
-        session_matches = list(SESSION_HEADER_RE.finditer(day_blob))
+    for day_pos, day_start in enumerate(day_indices):
+        day_end = day_indices[day_pos + 1] if day_pos + 1 < len(day_indices) else len(lines)
+        day_label = lines[day_start]
+        day_lines = lines[day_start + 1:day_end]
         day_obj: dict[str, Any] = {"label": day_label, "sessions": []}
-
-        for session_index, session_match in enumerate(session_matches):
-            header = session_match.group(1)
-            chunk_start = session_match.end()
-            chunk_end = session_matches[session_index + 1].start() if session_index + 1 < len(session_matches) else len(day_blob)
-            chunk = day_blob[chunk_start:chunk_end]
-
-            header_match = re.match(r"(?P<start>\d{2}:\d{2})-(?P<end>\d{2}:\d{2}) (?P<title>.+)", header)
-            if not header_match:
+        i = 0
+        while i < len(day_lines):
+            line = day_lines[i]
+            if line.startswith("View this program:"):
+                i += 1
+                continue
+            session_match = SESSION_LINE_RE.match(line)
+            if not session_match:
+                i += 1
                 continue
 
+            session_title = session_match.group("title")
             session: dict[str, Any] = {
                 "day": day_label,
-                "start": header_match.group("start"),
-                "end": header_match.group("end"),
-                "title": header_match.group("title"),
+                "start": session_match.group("start"),
+                "end": session_match.group("end"),
+                "title": session_title,
                 "chairs": [],
                 "room": None,
                 "room_url": None,
                 "talks": [],
                 "notes": None,
             }
-
-            named_match = re.match(r"Session\s+([^\s:]+):\s*(.*)", session["title"])
+            named_match = re.match(r"Session\s+([^\s:]+):\s*(.*)", session_title)
             if named_match:
                 session["session_code"] = named_match.group(1)
                 session["session_name"] = named_match.group(2)
             else:
                 session["session_code"] = None
-                session["session_name"] = session["title"]
-
+                session["session_name"] = session_title
             session["theme"] = theme_from_name(session["session_name"])
 
-            chair_match = re.search(
-                r"Chair[s]?:\s*(.*?)(?=(?:Location:|\d{2}:\d{2}\s*(?:\[\]\([^)]*\)\s*){0,2}\[|$))",
-                chunk,
-            )
-            if chair_match:
-                session["chairs"] = PERSON_LINK_RE.findall(chair_match.group(1))
+            i += 1
+            notes: list[str] = []
 
-            room_match = ROOM_LINK_RE.search(chunk)
-            if room_match:
-                session["room"] = room_match.group(1)
-                session["room_url"] = room_match.group(2)
+            if i < len(day_lines) and re.match(r"^Chair[s]?:$", day_lines[i]):
+                i += 1
+                chair_lines: list[str] = []
+                while i < len(day_lines):
+                    probe = day_lines[i]
+                    if probe.startswith("Location:") or SESSION_LINE_RE.match(probe) or TALK_TIME_RE.match(probe) or DAY_LINE_RE.match(probe):
+                        break
+                    chair_lines.append(probe)
+                    i += 1
+                chair_text = normalize_space(" ".join(chair_lines))
+                session["chairs"] = parse_person_names(chair_text)
 
-            talk_matches = list(TALK_START_RE.finditer(chunk))
-            for talk_index, talk_match in enumerate(talk_matches):
-                talk_start = talk_match.group(1)
-                talk_end_boundary = talk_matches[talk_index + 1].start() if talk_index + 1 < len(talk_matches) else len(chunk)
-                talk_blob = chunk[talk_match.start():talk_end_boundary]
+            if i < len(day_lines) and day_lines[i].startswith("Location:"):
+                room, room_url = parse_room(day_lines[i])
+                session["room"] = room
+                session["room_url"] = room_url
+                i += 1
 
-                abstract_match = ABSTRACT_RE.search(talk_blob)
-                if not abstract_match:
+            while i < len(day_lines):
+                probe = day_lines[i]
+                if SESSION_LINE_RE.match(probe) or DAY_LINE_RE.match(probe):
+                    break
+                if TALK_TIME_RE.match(probe):
+                    talk_lines = [probe]
+                    i += 1
+                    while i < len(day_lines):
+                        lookahead = day_lines[i]
+                        if SESSION_LINE_RE.match(lookahead) or DAY_LINE_RE.match(lookahead) or TALK_TIME_RE.match(lookahead):
+                            break
+                        talk_lines.append(lookahead)
+                        i += 1
+                    talk = parse_talk_block(talk_lines, session, day_label)
+                    if talk:
+                        session["talks"].append(talk)
                     continue
+                if probe != "Chair:" and probe != "Chairs:" and not probe.startswith("Location:"):
+                    notes.append(probe)
+                i += 1
 
-                before_abstract = talk_blob[:abstract_match.start()]
-                after_abstract = talk_blob[abstract_match.end():]
-                before_abstract = re.sub(r"^\s*\d{2}:\d{2}\s*(?:\[\]\([^)]*\)\s*){0,2}", "", before_abstract)
-
-                author_matches = list(PERSON_LINK_RE.finditer(before_abstract))
-                authors = [match.group(1) for match in author_matches]
-                title = normalize_space(before_abstract[author_matches[-1].end():] if author_matches else before_abstract)
-                title = re.sub(r"^(?:,|and)\s*", "", title)
-
-                presenter_match = re.search(r"PRESENTER:\s*\[([^\]]+)\]\(", after_abstract)
-                presenter = presenter_match.group(1) if presenter_match else None
-
-                session["talks"].append(
-                    {
-                        "day": day_label,
-                        "start": talk_start,
-                        "end": session["end"],
-                        "title": title,
-                        "authors": authors,
-                        "presenter": presenter,
-                        "abstract_url": abstract_match.group(1),
-                        "room": session["room"],
-                        "session_code": session["session_code"],
-                        "session_name": session["session_name"],
-                        "session_title": session["title"],
-                        "theme": session["theme"],
-                    }
-                )
-
+            note_text = normalize_space(markdown_links_to_text(" ".join(notes)))
+            session["notes"] = note_text or None
             for talk_index, talk in enumerate(session["talks"]):
                 talk["end"] = session["talks"][talk_index + 1]["start"] if talk_index + 1 < len(session["talks"]) else session["end"]
-
-            notes_source = chunk[:talk_matches[0].start()] if talk_matches else chunk
-            notes_source = re.sub(
-                r"Chair[s]?:\s*.*?(?=(?:Location:|$))",
-                "",
-                notes_source,
-            )
-            notes_source = re.sub(r"Location:\s*\[[^\]]+\]\([^)]+\)", "", notes_source)
-            notes_text = normalize_space(markdown_links_to_text(notes_source))
-            session["notes"] = notes_text or None
-
             day_obj["sessions"].append(session)
 
         program["days"].append(day_obj)
@@ -261,7 +297,6 @@ def parse_program(markdownish: str, source_url: str) -> dict[str, Any]:
         "rooms": len({session["room"] for day in program["days"] for session in day["sessions"] if session["room"]}),
     }
     return program
-
 
 HTML_TEMPLATE = r'''<!DOCTYPE html>
 <html lang="en">
@@ -1030,12 +1065,19 @@ def build_site(program: dict[str, Any], snapshot_text: str, output_dir: Path, lo
             shutil.copy2(logo_source, destination_logo)
 
 
+def render_html_from_program_file(program_path: Path) -> str:
+    data = json.loads(program_path.read_text(encoding="utf-8"))
+    return render_html(data)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build the EvoStar 2026 friendly programme site.")
     parser.add_argument("--url", default=DEFAULT_URL, help="Public EasyChair programme URL")
     parser.add_argument("--snapshot-file", help="Use a saved snapshot instead of fetching EasyChair")
     parser.add_argument("--output-dir", default="site", help="Directory where the static site will be written")
     parser.add_argument("--logo-file", default="evo_logo.png", help="Local logo file copied into the generated site")
+    parser.add_argument("--min-sessions", type=int, default=0, help="Fail if fewer sessions are parsed")
+    parser.add_argument("--min-talks", type=int, default=0, help="Fail if fewer talks are parsed")
     return parser.parse_args()
 
 
@@ -1046,16 +1088,25 @@ def main() -> int:
 
     if args.snapshot_file:
         snapshot_text = Path(args.snapshot_file).read_text(encoding="utf-8")
-        markdownish = extract_markdownish_from_snapshot(snapshot_text)
+        structured_text = extract_structured_from_snapshot(snapshot_text)
     else:
         html = fetch_html(args.url)
-        markdownish = flatten_html_to_markdownish(html, args.url)
-        snapshot_text = f"Source URL: {args.url}\n\nMarkdown Content:\n\n{markdownish}\n"
+        structured_text = flatten_html_to_structured_text(html, args.url)
+        snapshot_text = f"Source URL: {args.url}\n\nStructured Content:\n\n{structured_text}\n"
 
-    program = parse_program(markdownish, args.url)
+    program = parse_program(structured_text, args.url)
+
+    if args.min_sessions and program["stats"]["sessions"] < args.min_sessions:
+        raise ValueError(
+            f"Parsed only {program['stats']['sessions']} sessions, below the safety threshold of {args.min_sessions}."
+        )
+    if args.min_talks and program["stats"]["talks"] < args.min_talks:
+        raise ValueError(
+            f"Parsed only {program['stats']['talks']} talks, below the safety threshold of {args.min_talks}."
+        )
+
     build_site(program, snapshot_text, output_dir, logo_path)
-
-    print(f"Built site in {output_dir}")
+    print(f"Built site in {output_dir} | sessions={program['stats']['sessions']} talks={program['stats']['talks']}")
     return 0
 
 

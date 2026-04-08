@@ -1,43 +1,58 @@
-# EvoStar 2026 friendly programme
+# EvoStar 2026 Friendly programme
 
-Static GitHub Pages site for a friendlier public programme view of the EasyChair schedule.
+Static GitHub Pages site for a friendlier public view of the EvoStar 2026 EasyChair programme.
 
-## What changed in this version
+Source URL:
+- https://easychair.org/smart-program/evostar2026/index.html
 
-- More robust session parsing: it now accepts session headers even when EasyChair does not expose them as clickable links.
-- Safety guard in CI: if a scheduled scrape returns suspiciously few sessions or talks, the workflow fails instead of publishing an empty programme.
-- Rebuilds on every push and once per hour.
+## What this repo contains
 
-## Local build
+- `scrape_evostar_easychair.py`: scraper + static site generator
+- `site/`: generated GitHub Pages output
+- `.github/workflows/update-programme.yml`: hourly and on-push rebuild + deploy workflow
+
+## Local rebuild
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python scrape_evostar_easychair.py   --url https://easychair.org/smart-program/evostar2026/index.html   --output-dir site   --logo-file evo_logo.png   --min-sessions 40   --min-talks 100
+python scrape_evostar_easychair.py \
+  --url https://easychair.org/smart-program/evostar2026/index.html \
+  --output-dir site \
+  --logo-file evo_logo.png \
+  --min-sessions 40 \
+  --min-talks 100
 ```
 
-## Deploy on GitHub Pages
+## GitHub Pages setup
 
-1. Create a GitHub repository.
-2. Upload all files from this folder to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **GitHub Actions** as the source.
+1. Create or open your GitHub repository.
+2. Upload all files from this project to the repository root.
+3. Go to **Settings → Pages**.
+4. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 5. Push to `main` or `master`.
-6. Open the **Actions** tab and wait for **Update and deploy friendly programme** to finish.
-7. Your site will be published at:
-   `https://YOUR-USER.github.io/YOUR-REPOSITORY/`
+6. Open the **Actions** tab and check that the workflow `Update and deploy friendly programme` succeeds.
+7. Once deployed, the site will be available at:
+   - `https://YOUR-USER.github.io/YOUR-REPO/`
 
-## Updating an existing broken repo
+## Update policy
 
-1. Delete the old workflow in `.github/workflows/`.
-2. Replace `scrape_evostar_easychair.py` with the one in this package.
-3. Replace the whole `site/` folder with the one in this package.
-4. Add `requirements.txt` if it is missing.
-5. Commit and push.
-6. In GitHub, run the workflow manually once from **Actions → Update and deploy friendly programme → Run workflow**.
+The workflow runs:
+- on every push to `main` or `master`
+- every hour at minute 17 (UTC)
+- manually from the **Actions** tab
 
-## Notes
+## Why the workflow uploads a tar.gz artifact
 
-- The workflow runs every hour at minute 17 (UTC-based cron in GitHub Actions).
-- The safety thresholds are set to 40 sessions and 100 talks to avoid publishing an empty page if EasyChair changes or temporarily serves incomplete HTML.
+GitHub Pages accepts an Actions artifact named `github-pages` that is a single gzip archive containing a single tar file. This repo packages the site explicitly and uploads it with `actions/upload-artifact@v6`.
+
+That avoids the Node 20 deprecation warning caused by older artifact-upload actions and keeps the workflow aligned with the current Node 24-compatible action releases.
+
+## Safety guard
+
+The scraper fails intentionally if it parses fewer than:
+- 40 sessions
+- 100 talks
+
+This prevents an empty or broken scrape from being deployed over a working site.
